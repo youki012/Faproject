@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 767960267}
   - component: {fileID: 767960266}
   m_Layer: 5
-  m_Name: "pr\xE9sentation"
+  m_Name: text TMR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 1090537697}
   - component: {fileID: 1090537696}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: "Pr\xE9sentation patient"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
