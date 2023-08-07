@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 85777227}
   - component: {fileID: 85777226}
   m_Layer: 5
-  m_Name: projet (1)
+  m_Name: obj long
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -917,7 +917,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pr\xE9sentation clinique du patient"
+  m_text: Attentes de l'entourage
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2128,7 +2128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Habitudes ant\xE9rieures de vie"
+  m_text: "Objectifs \xE0 long terme"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3443,7 +3443,7 @@ GameObject:
   - component: {fileID: 1225838577}
   - component: {fileID: 1225838576}
   m_Layer: 5
-  m_Name: "Pr\xE9sentation patient (1)"
+  m_Name: attentes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3791,7 +3791,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Peojets du patient '
+  m_text: "Objectifs \xE0 court terme\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5169,7 +5169,7 @@ GameObject:
   - component: {fileID: 2049413790}
   - component: {fileID: 2049413789}
   m_Layer: 5
-  m_Name: "Habitudes ant\xE9rieurs (1)"
+  m_Name: obj court
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
