@@ -7,8 +7,10 @@ using UnityEngine;
 public class Gamedata 
 {
     public int x;
+    public string inputed;
     public Gamedata()
     {
         this.x = 0;
+        this.inputed = "";
     }
 }
