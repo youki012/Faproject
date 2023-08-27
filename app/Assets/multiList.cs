@@ -26,7 +26,7 @@ public class multiList : MonoBehaviour
             
 
             active = false;
-            arrow.rotation = Quaternion.Euler(0f, 0f, 90f);
+            arrow.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
         else
         {
@@ -34,7 +34,7 @@ public class multiList : MonoBehaviour
             
 
             active = true;
-            arrow.rotation = Quaternion.Euler(0f, 0f, 0f); 
+            arrow.rotation = Quaternion.Euler(0f, 0f, 180f); 
         }
                 
     }
