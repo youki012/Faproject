@@ -123,6 +123,82 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1430462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1430463}
+  - component: {fileID: 1430465}
+  - component: {fileID: 1430464}
+  m_Layer: 5
+  m_Name: line  (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1430463
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90.00002}
+  m_LocalScale: {x: 0.0098399995, y: 0.0098399995, z: 0.0098399995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1921407551}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.37, y: -9.15}
+  m_SizeDelta: {x: 1970, y: 10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1430464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.29411766, b: 0.5176471, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1430465
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430462}
+  m_CullTransparentMesh: 1
 --- !u!1 &18174634
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.37, y: -9.22}
+  m_AnchoredPosition: {x: 1.37, y: -10.1}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18174636
@@ -181,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vous nettoyer et vous tailler les ongles
+  m_text: Se moucher
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -293,7 +369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.4099994, y: -5.74}
+  m_AnchoredPosition: {x: 3.41, y: -5.91}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20302913
@@ -369,7 +445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.38, y: -9.89}
+  m_AnchoredPosition: {x: 1.38, y: -10.75}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23384589
@@ -392,7 +468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Vous maquiller '
+  m_text: Se nettoyer et se tailler les ongles
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -715,7 +791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.35, y: -3.78}
+  m_AnchoredPosition: {x: 3.35, y: -3.36}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76868447
@@ -1213,7 +1289,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.28, y: -4.03}
+  m_AnchoredPosition: {x: 1.33, y: -2.79}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &134782387
@@ -1236,7 +1312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Utiliser la toilette de votre domicile \r\n(incluant le transfert)"
+  m_text: "Utiliser la toilette de son domicile \r\n(incluant le transfert)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1348,7 +1424,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.25, y: -8.7}
+  m_AnchoredPosition: {x: 3.25, y: -7.33}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137385150
@@ -1524,6 +1600,143 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142418223}
   m_CullTransparentMesh: 1
+--- !u!1 &146199263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146199264}
+  - component: {fileID: 146199266}
+  - component: {fileID: 146199265}
+  m_Layer: 5
+  m_Name: 1.1.1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &146199264
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146199263}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.009259257, y: 0.009259257, z: 0.009259259}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1417367267}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.9, y: -12.49}
+  m_SizeDelta: {x: 859.2549, y: 100.0123}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &146199265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146199263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Participer \xE0 l\u2019entretien de ses orth\xE8ses, proth\xE8ses \r               
+    ou autres accessoires (appareil auditif, fauteuil\r                       roulant,
+    lunettes\u2026)"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4286860032
+  m_fontColor: {r: 0, g: 0.29411766, b: 0.5176471, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &146199266
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146199263}
+  m_CullTransparentMesh: 1
 --- !u!1 &176997590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,7 +1772,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.31, y: -6.57}
+  m_AnchoredPosition: {x: 1.54, y: -6.02}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &176997592
@@ -1582,7 +1795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Faire renouveler ses m\xE9dicaments"
+  m_text: "Demander de l\u2019aide en cas d\u2019urgence \r\n(adulte, voisin, 911\u2026)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1829,7 +2042,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.9, y: -10.41}
+  m_AnchoredPosition: {x: -0.9, y: -11.49}
   m_SizeDelta: {x: 859.2549, y: 100.0123}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &196208668
@@ -1852,8 +2065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Entretenir vos orth\xE8ses, proth\xE8ses ou autres\r\naccessoires (appareil
-    auditif, fauteuil roulant,\r\nlentilles corn\xE9ennes\u2026)"
+  m_text: Se maquiller
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1967,8 +2179,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -26, y: 411.40002}
-  m_SizeDelta: {x: 38, y: 411.4}
+  m_AnchoredPosition: {x: -26, y: 395.45}
+  m_SizeDelta: {x: 38, y: 395.45}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &196329081
 MonoBehaviour:
@@ -2013,8 +2225,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1336836313}
   m_HandleRect: {fileID: 1336836312}
   m_Direction: 2
-  m_Value: 0.90000004
-  m_Size: 0.20907104
+  m_Value: 1.0000001
+  m_Size: 0.14816073
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2092,7 +2304,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.26, y: -8.35}
+  m_AnchoredPosition: {x: 3.26, y: -9.27}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &206582259
@@ -2244,7 +2456,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.28, y: -9.12}
+  m_AnchoredPosition: {x: 3.28, y: -9.99}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &262879993
@@ -2643,7 +2855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.33, y: -5.49}
+  m_AnchoredPosition: {x: 1.51, y: -4.51}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302389640
@@ -2666,7 +2878,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Prendre des m\xE9dicaments prescrits \r\n(incluant suivre la posologie)"
+  m_text: "Participer au suivi des consignes th\xE9rapeutiques\r\n(di\xE8te, exercices
+    \xE0 domicile\u2026)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2778,7 +2991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.27, y: -9.54}
+  m_AnchoredPosition: {x: 1.35, y: -9.54}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312917134
@@ -2915,8 +3128,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1040.32, y: 259.136}
-  m_SizeDelta: {x: 2081.5, y: 3276.35}
+  m_AnchoredPosition: {x: -1040.32, y: -0.00036621094}
+  m_SizeDelta: {x: 2081.5, y: 4623.29}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &322565719
 GameObject:
@@ -2953,7 +3166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3746643, y: -6.53}
+  m_AnchoredPosition: {x: 3.3746643, y: -5.88}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322565721
@@ -3164,7 +3377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.27, y: -8.49}
+  m_AnchoredPosition: {x: 1.4, y: -8.24}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &400895575
@@ -3187,8 +3400,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Entretenir le mat\xE9riel n\xE9cessaire \xE0 l\u2019\xE9limination\r\nurinaire
-    et intestinale"
+  m_text: "Participer \xE0 l\u2019entretien du mat\xE9riel n\xE9cessaire \r\n\xE0
+    l\u2019\xE9limination urinaire et intestinale"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3300,7 +3513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.37, y: -2.19}
+  m_AnchoredPosition: {x: 3.37, y: -0.52}
   m_SizeDelta: {x: 60, y: 1970}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &412269396
@@ -3376,7 +3589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.37, y: -5.75}
+  m_AnchoredPosition: {x: 3.37, y: -5.05}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &414192928
@@ -3543,7 +3756,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.79, y: -3.28}
+  m_AnchoredPosition: {x: -0.65, y: -1.41}
   m_SizeDelta: {x: 923.5843, y: 142.4198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &444214052
@@ -3566,7 +3779,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vous habiller et vous d\xE9shabiller le haut du corps"
+  m_text: "S\u2019habiller et se d\xE9shabiller le haut du corps\r\n(incluant boutons,
+    fermetures \xE9clair\u2026)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3678,7 +3892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3746643, y: -6.22}
+  m_AnchoredPosition: {x: 3.37, y: -5.8}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &460826990
@@ -3927,7 +4141,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.36, y: -7.99}
+  m_AnchoredPosition: {x: 1.36, y: -8.48}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &490622715
@@ -4176,7 +4390,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.37, y: -7.53}
+  m_AnchoredPosition: {x: 3.37, y: -7.8}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &548901156
@@ -4252,7 +4466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.28, y: -4.53}
+  m_AnchoredPosition: {x: 1.45, y: -4.34}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571345595
@@ -4275,8 +4489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Choisir des v\xEAtements appropri\xE9s \r\n(selon la temp\xE9rature, le
-    type d\u2019activit\xE9)"
+  m_text: Mettre et enlever ses chaussures
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4388,7 +4601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -6.63}
+  m_AnchoredPosition: {x: 1.49, y: -6.46}
   m_SizeDelta: {x: 1350.2902, y: 62.246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578253209
@@ -4411,7 +4624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Prendre des v\xEAtements dans le garde-robe"
+  m_text: "Changer ses v\xEAtements s\u2019ils sont souill\xE9s ou salis"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4654,7 +4867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3525844, y: -4.72}
+  m_AnchoredPosition: {x: 3.3525844, y: -3.59}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &613904875
@@ -4771,6 +4984,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619696065}
   m_CullTransparentMesh: 1
+--- !u!1 &638614912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 638614913}
+  - component: {fileID: 638614915}
+  - component: {fileID: 638614914}
+  m_Layer: 5
+  m_Name: line  (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &638614913
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638614912}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.009258791, y: 0.009258791, z: 0.009258793}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1417367267}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.28, y: -11.8}
+  m_SizeDelta: {x: 1970, y: 10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &638614914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638614912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.29411766, b: 0.5176471, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &638614915
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638614912}
+  m_CullTransparentMesh: 1
 --- !u!1 &687138839
 GameObject:
   m_ObjectHideFlags: 0
@@ -4806,7 +5095,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.37, y: -2.19}
+  m_AnchoredPosition: {x: 3.37, y: -0.5}
   m_SizeDelta: {x: 60, y: 1970}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687138841
@@ -4882,7 +5171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.38, y: -8.58}
+  m_AnchoredPosition: {x: 1.38, y: -9.3}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &730025724
@@ -4905,7 +5194,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vous moucher
+  m_text: "Se raser, s\u2019\xE9piler"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5422,7 +5711,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.35, y: -3.15}
+  m_AnchoredPosition: {x: 3.35, y: -1.77}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910550368
@@ -5768,7 +6057,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.0393162, y: -2.24}
+  m_AnchoredPosition: {x: -3.0393162, y: -0.25}
   m_SizeDelta: {x: 465.9755, y: 56.8199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957871413
@@ -5903,7 +6192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3700001, y: -5.46}
+  m_AnchoredPosition: {x: 3.37, y: -4.32}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000385126
@@ -5979,7 +6268,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -5.23}
+  m_AnchoredPosition: {x: 1.49, y: -9.61}
   m_SizeDelta: {x: 1350.2902, y: 62.246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1005464963
@@ -6002,7 +6291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Changer vos v\xEAtements lorsqu\u2019ils sont souill\xE9s "
+  m_text: Mettre et enlever des bijoux
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6325,7 +6614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.37, y: -2.19}
+  m_AnchoredPosition: {x: 3.37, y: -0.17}
   m_SizeDelta: {x: 60, y: 1970}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1043010334
@@ -6612,7 +6901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3525844, y: -4.34}
+  m_AnchoredPosition: {x: 3.3525844, y: -3.27}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1071798104
@@ -6688,7 +6977,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.28, y: -9.76}
+  m_AnchoredPosition: {x: 3.28, y: -10.78}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1106800314
@@ -6861,7 +7150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.38, y: -6.57}
+  m_AnchoredPosition: {x: 1.38, y: -6.74}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1132550600
@@ -6975,7 +7264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -8.02}
+  m_AnchoredPosition: {x: 1.49, y: -8.3}
   m_SizeDelta: {x: 1350.2902, y: 62.246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1155228068
@@ -6998,7 +7287,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mettre et enlever vos orth\xE8ses et proth\xE8ses"
+  m_text: "Prendre des v\xEAtements dans le garde-robe \r\nou le casier"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7110,7 +7399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3746643, y: -5.54}
+  m_AnchoredPosition: {x: 3.3746643, y: -9.05}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162694075
@@ -7150,6 +7439,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162694073}
+  m_CullTransparentMesh: 1
+--- !u!1 &1164394787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1164394788}
+  - component: {fileID: 1164394790}
+  - component: {fileID: 1164394789}
+  m_Layer: 5
+  m_Name: line  (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1164394788
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164394787}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90.00002}
+  m_LocalScale: {x: 0.0098399995, y: 0.0098399995, z: 0.0098399995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1809301022}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.37, y: -9.95}
+  m_SizeDelta: {x: 1970, y: 10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1164394789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164394787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.29411766, b: 0.5176471, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1164394790
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164394787}
   m_CullTransparentMesh: 1
 --- !u!1 &1211114530
 GameObject:
@@ -7211,7 +7576,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 50
   m_Viewport: {fileID: 431527564}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 196329081}
@@ -7295,7 +7660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -4.41}
+  m_AnchoredPosition: {x: 1.48, y: -3.2}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1213311963
@@ -7318,8 +7683,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Soigner vos malaises ou blessures l\xE9g\xE8res\r\n(pansement, m\xE9dicaments
-    non prescrits)"
+  m_text: "Participer \xE0 soigner ses probl\xE8mes de sant\xE9 \r\n(pansements,
+    m\xE9dicaments\u2026)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7431,7 +7796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.35, y: -3.12}
+  m_AnchoredPosition: {x: 3.35, y: -1.85}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1223932745
@@ -8005,8 +8370,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -26, y: -74}
-  m_SizeDelta: {x: 68.03, y: 52}
+  m_AnchoredPosition: {x: 0.0011997223, y: 1.625}
+  m_SizeDelta: {x: -0.0023727, y: 1.8800011}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336836313
 MonoBehaviour:
@@ -8081,7 +8446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3525844, y: -3.58}
+  m_AnchoredPosition: {x: 3.35, y: -2.19}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347510058
@@ -8368,7 +8733,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.0393162, y: -2.24}
+  m_AnchoredPosition: {x: -3.0393162, y: -0.65}
   m_SizeDelta: {x: 465.9755, y: 56.8199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1413173619
@@ -8521,6 +8886,8 @@ Transform:
   - {fileID: 23384588}
   - {fileID: 196208667}
   - {fileID: 1106800313}
+  - {fileID: 146199264}
+  - {fileID: 638614913}
   m_Father: {fileID: 321365480}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9057,7 +9424,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3746643, y: -7.59}
+  m_AnchoredPosition: {x: 3.3746643, y: -7.8}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492768412
@@ -9171,7 +9538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.26, y: -6.5}
+  m_AnchoredPosition: {x: 3.26, y: -6.76}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1507049603
@@ -9344,7 +9711,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.31, y: -8.33}
+  m_AnchoredPosition: {x: 1.58, y: -8.76}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1517589798
@@ -9367,8 +9734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Demander de l\u2019aide en cas d\u2019urgence \r\n(voisin, police, ambulance,
-    911, info-sant\xE9\u2026)"
+  m_text: "Utiliser les services dispens\xE9s par un centre \r\nde r\xE9adaptation"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9469,7 +9835,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539829128}
   m_LocalRotation: {x: -0, y: -0, z: -0.0023133277, w: 0.9999973}
-  m_LocalPosition: {x: 645, y: -1223, z: -9145.883}
+  m_LocalPosition: {x: 645, y: -1285, z: -9145.883}
   m_LocalScale: {x: 101.62091, y: 101.62091, z: 101.62091}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9754,7 +10120,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.25, y: -7.73}
+  m_AnchoredPosition: {x: 3.25, y: -8.62}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1603881331
@@ -9868,7 +10234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.2641144, y: -7.21}
+  m_AnchoredPosition: {x: 3.2641144, y: -7.65}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1631149031
@@ -9947,6 +10313,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631149031}
   m_CullTransparentMesh: 1
+--- !u!1 &1645037644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1645037645}
+  - component: {fileID: 1645037647}
+  - component: {fileID: 1645037646}
+  m_Layer: 5
+  m_Name: text (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1645037645
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645037644}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90.000015}
+  m_LocalScale: {x: 0.0098399995, y: 0.0098399995, z: 0.0098399995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1809301022}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1.49, y: -10.49}
+  m_SizeDelta: {x: 1350.2902, y: 62.246}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1645037646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645037644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Mettre et enlever ses orth\xE8ses ou proth\xE8ses \r\n(orth\xE8ses tibiales,
+    appareils auditifs, lunettes\u2026)"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4286860032
+  m_fontColor: {r: 0, g: 0.29411766, b: 0.5176471, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1645037647
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645037644}
+  m_CullTransparentMesh: 1
 --- !u!1 &1672846905
 GameObject:
   m_ObjectHideFlags: 0
@@ -9982,7 +10484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.28, y: -5.17}
+  m_AnchoredPosition: {x: 1.33, y: -4.27}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1672846907
@@ -10005,7 +10507,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Utiliser une toilette autre que celle de \r\nvotre domicile"
+  m_text: Utiliser une toilette autre que celle du domicile
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10214,7 +10716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.38, y: -7.33}
+  m_AnchoredPosition: {x: 1.38, y: -7.62}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1688741839
@@ -10463,7 +10965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.27, y: -7.43}
+  m_AnchoredPosition: {x: 1.34, y: -6.91}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719448323
@@ -11207,7 +11709,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809301021}
   m_LocalRotation: {x: -0, y: -0, z: -0.0023133277, w: 0.9999973}
-  m_LocalPosition: {x: 642, y: -1656, z: -9145.884}
+  m_LocalPosition: {x: 639, y: -2321, z: -9145.884}
   m_LocalScale: {x: 101.62091, y: 101.62091, z: 101.62091}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11226,8 +11728,10 @@ Transform:
   - {fileID: 2012641466}
   - {fileID: 1492768411}
   - {fileID: 1155228067}
-  - {fileID: 1005464962}
   - {fileID: 1162694074}
+  - {fileID: 1005464962}
+  - {fileID: 1164394788}
+  - {fileID: 1645037645}
   m_Father: {fileID: 321365480}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11342,7 +11846,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -3.89}
+  m_AnchoredPosition: {x: 1.45, y: -2.83}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1814913753
@@ -11365,7 +11869,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vous habiller et vous d\xE9shabiller le bas du corps"
+  m_text: "S\u2019habiller et se d\xE9shabiller le bas du corps \r\n(incluant boutons,
+    fermetures \xE9clair\u2026)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11545,7 +12050,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.0393162, y: -2.24}
+  m_AnchoredPosition: {x: -2.92, y: -0.59}
   m_SizeDelta: {x: 465.9755, y: 56.8199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832818956
@@ -11756,7 +12261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -5.98}
+  m_AnchoredPosition: {x: 1.45, y: -4.96}
   m_SizeDelta: {x: 1350.2902, y: 62.246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1913870402
@@ -11779,7 +12284,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Prendre des v\xEAtements dans la commode"
+  m_text: "Choisir des v\xEAtements appropri\xE9s \r\n(selon la temp\xE9rature, le
+    type d\u2019activit\xE9)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11880,7 +12386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921407550}
   m_LocalRotation: {x: -0, y: -0, z: -0.0023133277, w: 0.9999973}
-  m_LocalPosition: {x: 640, y: -2310, z: -9145.884}
+  m_LocalPosition: {x: 634, y: -3463, z: -9145.884}
   m_LocalScale: {x: 101.62091, y: 101.62091, z: 101.62091}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11897,6 +12403,7 @@ Transform:
   - {fileID: 548901155}
   - {fileID: 2021718368}
   - {fileID: 1517589797}
+  - {fileID: 1430463}
   m_Father: {fileID: 321365480}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11935,7 +12442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.79, y: -3.28}
+  m_AnchoredPosition: {x: -0.65, y: -1.75}
   m_SizeDelta: {x: 923.5843, y: 142.4198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1924773519
@@ -11958,7 +12465,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Reconna\xEEtre vos probl\xE8mes de sant\xE9 \r\n(infections, stress, anxi\xE9t\xE9\u2026)"
+  m_text: "Reconna\xEEtre et signaler des probl\xE8mes de sant\xE9\r\n(blessure,
+    acn\xE9, allergie, stress\u2026)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12686,7 +13194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -7.31}
+  m_AnchoredPosition: {x: 1.49, y: -7.46}
   m_SizeDelta: {x: 1350.2902, y: 62.246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012641467
@@ -12709,7 +13217,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mettre des bijoux
+  m_text: "Prendre des v\xEAtements dans la commode"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12821,7 +13329,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.31, y: -7.28}
+  m_AnchoredPosition: {x: 1.57, y: -7.42}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021718369
@@ -12844,7 +13352,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Suivre les consignes th\xE9rapeutiques \r\n(di\xE8te, exercices \xE0 domicile\u2026)"
+  m_text: "Utiliser les services dispens\xE9s par une clinique\r\nm\xE9dicale, un
+    centre hospitalier"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12956,7 +13465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.79, y: -2.84}
+  m_AnchoredPosition: {x: -0.79, y: -1.33}
   m_SizeDelta: {x: 923.5843, y: 52.5974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2043601403
@@ -12979,7 +13488,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vous d\xE9shabiller et vous habiller \xE0 la toilette"
+  m_text: "Se d\xE9shabiller et s\u2019habiller \xE0 la toilette"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13226,7 +13735,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.37, y: -4.78}
+  m_AnchoredPosition: {x: 3.37, y: -4.31}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2068575805
@@ -13378,7 +13887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.26, y: -6.26}
+  m_AnchoredPosition: {x: 1.31, y: -5.34}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107201693
@@ -13402,7 +13911,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Utiliser une m\xE9thode ou de l\u2019\xE9quipement pour\r\nl\u2019\xE9limination
-    urinaire (condom, cath\xE9t\xE9risme\u2026)"
+    urinaire (couche, cath\xE9t\xE9risme\u2026)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13514,7 +14023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.2641144, y: -7.82}
+  m_AnchoredPosition: {x: 3.26, y: -8.49}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2108274177
@@ -13589,8 +14098,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 27.430008, y: 50}
-  m_SizeDelta: {x: -64.85, y: -20}
+  m_AnchoredPosition: {x: 0.000049591064, y: 0}
+  m_SizeDelta: {x: -4.99, y: -0.00012207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2138742407
 GameObject:
