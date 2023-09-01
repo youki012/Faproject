@@ -603,7 +603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vous laver et vous essuyer le haut du corps
+  m_text: "Se laver et s\u2019essuyer les mains"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1002,7 +1002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.39, y: -5.79}
+  m_AnchoredPosition: {x: 1.39, y: -5.81}
   m_SizeDelta: {x: 1350.2902, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95430951
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vous s\xE9cher les cheveux"
+  m_text: Se laver les cheveux
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2013,7 +2013,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1336836313}
   m_HandleRect: {fileID: 1336836312}
   m_Direction: 2
-  m_Value: 1.0000001
+  m_Value: 0.90000004
   m_Size: 0.20907104
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2092,7 +2092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.26, y: -8.46}
+  m_AnchoredPosition: {x: 3.26, y: -8.35}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &206582259
@@ -2915,7 +2915,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1040.32, y: -0.00024414062}
+  m_AnchoredPosition: {x: -1040.32, y: 259.136}
   m_SizeDelta: {x: 2081.5, y: 3276.35}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &322565719
@@ -3833,7 +3833,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vous raser
+  m_text: Se brosser les dents
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6500,7 +6500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "3.1 Hygi\xE8ne corporelle"
+  m_text: 3.1 Soins corporels
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6767,7 +6767,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vous coiffer
+  m_text: "Se s\xE9cher les cheveux"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8497,12 +8497,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 467831029}
-  - {fileID: 1981158366}
   - {fileID: 1066537331}
   - {fileID: 1991627795}
+  - {fileID: 1981158366}
   - {fileID: 1419333160}
-  - {fileID: 46751894}
   - {fileID: 1484926340}
+  - {fileID: 46751894}
   - {fileID: 1551879721}
   - {fileID: 1929687108}
   - {fileID: 619696066}
@@ -8582,7 +8582,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vous laver et vous essuyer le bas du corps
+  m_text: "Se laver et s\u2019essuyer le corps"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9469,7 +9469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539829128}
   m_LocalRotation: {x: -0, y: -0, z: -0.0023133277, w: 0.9999973}
-  m_LocalPosition: {x: 647, y: -859, z: -9145.883}
+  m_LocalPosition: {x: 645, y: -1223, z: -9145.883}
   m_LocalScale: {x: 101.62091, y: 101.62091, z: 101.62091}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10120,7 +10120,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vous brosser les dents
+  m_text: Se peigner ou se brosser les cheveux
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12093,7 +12093,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Vous laver les cheveux
+  m_text: "Se laver et s\u2019essuyer le visage"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12439,7 +12439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Prendre votre bain ou votre douche
+  m_text: Prendre son bain ou sa douche
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
