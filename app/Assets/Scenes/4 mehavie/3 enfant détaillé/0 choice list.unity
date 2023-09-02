@@ -92820,8 +92820,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.24, y: 2.43}
-  m_SizeDelta: {x: 1350.2902, y: 137.2476}
+  m_AnchoredPosition: {x: 0.01, y: 2.58}
+  m_SizeDelta: {x: 868.7472, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1608596440
 MonoBehaviour:
@@ -92843,8 +92843,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Choisir les aliments appropri\xE9s pour ses collations,\r\nses repas,
-    selon ses go\xFBts et ses besoins particuliers\r\n(quantit\xE9 et type d\u2019aliments)"
+  m_text: "Choisir les aliments appropri\xE9s pour ses collations,\r              
+    ses repas, selon ses go\xFBts et ses besoins particuliers\r                            
+    (quantit\xE9 et type d\u2019aliments)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
