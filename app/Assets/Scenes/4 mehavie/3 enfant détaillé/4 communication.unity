@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.42, y: 2.9}
-  m_SizeDelta: {x: 936.6444, y: 137.2476}
+  m_AnchoredPosition: {x: 0.2598998, y: 2.9}
+  m_SizeDelta: {x: 902.0627, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9791719
 MonoBehaviour:
@@ -2166,8 +2166,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.39, y: 3.89}
-  m_SizeDelta: {x: 936.6444, y: 137.2476}
+  m_AnchoredPosition: {x: 0.2442, y: 3.89}
+  m_SizeDelta: {x: 905.1555, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &250939682
 MonoBehaviour:
@@ -3386,7 +3386,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.08, y: 4.82}
+  m_AnchoredPosition: {x: 4.08, y: 4.62}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &499344599
@@ -4957,7 +4957,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.08, y: 2.8}
+  m_AnchoredPosition: {x: 4.08, y: 2.61}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944313919
@@ -8909,8 +8909,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.43, y: 5.28}
-  m_SizeDelta: {x: 936.6444, y: 137.2476}
+  m_AnchoredPosition: {x: 0.1565, y: 5.28}
+  m_SizeDelta: {x: 877.5687, y: 137.2476}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719448323
 MonoBehaviour:
@@ -8932,7 +8932,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Exprimer ses besoins \xE0 l\u2019ext\xE9rieur de son domicile\r\nou avec
+  m_text: "Exprimer ses besoins \xE0 l\u2019ext\xE9rieur de son domicile ou avec
     d\u2019autres personnes que ses proches"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11020,7 +11020,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.08, y: 3.84}
+  m_AnchoredPosition: {x: 4.08, y: 3.72}
   m_SizeDelta: {x: 1970, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2130517567
