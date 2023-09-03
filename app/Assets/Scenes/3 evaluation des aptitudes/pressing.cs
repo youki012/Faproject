@@ -22,46 +22,46 @@ public class pressing : MonoBehaviour
 
     public void press1()
     {
-        one.color = new Color(0f,1f,0f,1f);
-        two.color = new Color(1f, 0f, 0f, 1f);
-        three.color = new Color(1f, 0f, 0f, 1f);
-        four.color = new Color(1f, 0f, 0f, 1f);
-        five.color = new Color(1f, 0f, 0f, 1f);
+        one.color = new Color(1f,0f,0f,1f);
+        two.color = new Color(1f, 1f, 1f, 0f);
+        three.color = new Color(1f, 1f, 1f, 0f);
+        four.color = new Color(1f, 1f, 1f, 0f);
+        five.color = new Color(1f, 1f, 1f, 0f);
         oned = true; twod = false; threed = false; fourd = false; fived = false;
     }
     public void press2()
     {
-        one.color = new Color(0f, 1f, 0f, 1f);
-        two.color = new Color(0f, 1f, 0f, 1f);
-        three.color = new Color(1f, 0f, 0f, 1f);
-        four.color = new Color(1f, 0f, 0f, 1f);
-        five.color = new Color(1f, 0f, 0f, 1f);
+        one.color = new Color(1f, 0f, 0f, 1f);
+        two.color = new Color(1f, 0.4f, 0f, 1f);
+        three.color = new Color(1f, 0f, 0f, 0f);
+        four.color = new Color(1f, 0f, 0f, 0f);
+        five.color = new Color(1f, 0f, 0f, 0f);
         oned = true; twod = true; threed = false; fourd = false; fived = false;
     }
     public void press3()
     {
-        one.color = new Color(0f, 1f, 0f, 1f);
-        two.color = new Color(0f, 1f, 0f, 1f);
-        three.color = new Color(0f, 1f, 0f, 1f);
-        four.color = new Color(1f, 0f, 0f, 1f);
-        five.color = new Color(1f, 0f, 0f, 1f);
+        one.color = new Color(1f, 0f, 0f, 1f);
+        two.color = new Color(1f, 0.4f, 0f, 1f);
+        three.color = new Color(1f, 0.65f, 0f, 1f);
+        four.color = new Color(1f, 0f, 0f, 0f);
+        five.color = new Color(1f, 0f, 0f, 0f);
         oned = true; twod = true; threed = true; fourd = false; fived = false;
     }
     public void press4()
     {
-        one.color = new Color(0f, 1f, 0f, 1f);
-        two.color = new Color(0f, 1f, 0f, 1f);
-        three.color = new Color(0f, 1f, 0f, 1f);
-        four.color = new Color(0f, 1f, 0f, 1f);
-        five.color = new Color(1f, 0f, 0f, 1f);
+        one.color = new Color(1f, 0f, 0f, 1f);
+        two.color = new Color(1f, 0.4f, 0f, 1f);
+        three.color = new Color(1f, 0.65f, 0f, 1f);
+        four.color = new Color(0.7f, 0.8f, 0f, 1f);
+        five.color = new Color(1f, 0f, 0f, 0f);
         oned = true; twod = true; threed = true; fourd = true; fived = false;
     }
     public void press5()
     {
-        one.color = new Color(0f, 1f, 0f, 1f);
-        two.color = new Color(0f, 1f, 0f, 1f);
-        three.color = new Color(0f, 1f, 0f, 1f);
-        four.color = new Color(0f, 1f, 0f, 1f);
+        one.color = new Color(1f, 0f, 0f, 1f);
+        two.color = new Color(1f, 0.4f, 0f, 1f);
+        three.color = new Color(1f, 0.65f, 0f, 1f);
+        four.color = new Color(0.7f, 0.8f, 0f, 1f);
         five.color = new Color(0f, 1f, 0f, 1f);
         oned = true; twod = true; threed = true; fourd = true; fived = true;
     }
