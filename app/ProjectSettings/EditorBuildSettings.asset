@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/4 mehavie/1 adulte d\xE9taill\xE9/0 choice list.unity"
     guid: 4fd83d4af5dd20d4a9756e9c0524f13c
+  - enabled: 1
+    path: Assets/Scenes/5 MQE/MQE.unity
+    guid: a9f92f2de2bd1464c83aa2df348d699e
+  - enabled: 1
+    path: Assets/Scenes/6 fiche de suivi/suivi.unity
+    guid: b64cdae3f0c212643a5e73ecbe8625e6
   m_configObjects: {}
