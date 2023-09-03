@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/needs/0.unity
-    guid: e2b7d383e4b9bd242a683f1eae933f88
+    path: Assets/Scenes/0 mainscene.unity
+    guid: 5ac9ab7b23c5bab4baf276c7a4ac86c1
+  - enabled: 1
+    path: Assets/Scenes/0 selelction page.unity
+    guid: 1f43452b210442d41993fd24890f00fe
+  - enabled: 1
+    path: Assets/Scenes/1 anamnese/renseignements.unity
+    guid: de61bfae9e4acbc46906ce12006ea1f9
+  - enabled: 1
+    path: Assets/Scenes/2 connaissonce de la peson/connaissance de la personne.unity
+    guid: 0258ed096c74ae54f8affd601c8d53b8
+  - enabled: 1
+    path: Assets/Scenes/3 evaluation des aptitudes/whatasave.unity
+    guid: 4d0d5d151c7edfb4aa1a11422d2be831
+  - enabled: 1
+    path: Assets/Scenes/4 mehavie/MEHAVIE MAIN SCENE.unity
+    guid: bc558e5cb33b9d6488f99ae7f9c8c92c
+  - enabled: 1
+    path: "Assets/Scenes/4 mehavie/1 adulte d\xE9taill\xE9/0 choice list.unity"
+    guid: 4fd83d4af5dd20d4a9756e9c0524f13c
   m_configObjects: {}
