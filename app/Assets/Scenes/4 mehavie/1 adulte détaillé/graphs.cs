@@ -11,30 +11,38 @@ public class graphs : MonoBehaviour
     public float x = -0.6696296f;
     public float y = 0f;
 
-    public linescore line1;
-    public linescore line2;
-    public linescore line3;
-    public linescore line4;
+    public int noflines;
+    int timpo = 0;
 
-    public float total;
+    public linescore[] line1;
+   
+ 
+   
+
+    public float total = 0f;
+    public float totalcount = 0f;
     public float length;
 
-    public void graphed()
-    { 
-        
-        line.position = new Vector3(3.9f, x,90f);
-        x += 0.25f;
-        line.sizeDelta = new Vector2(100f, y);
-        y += 54f;
-    }
+  
     public void graphlength()
     {
-        total = line1.count + line2.count ;
-
-        length = (line1.score + line2.score ) * 10f / total;
+        while (timpo < noflines)
+        {
+            total = total + line1[timpo].score;
+            totalcount = totalcount + line1[timpo].count;
+            timpo++;
+        }
+        length = total * 10f / (totalcount * 9f);
+       
     }
-    private void Update()
+    
+    public void graphed()
     {
-        graphlength();
+        x = 27f * length ;
+        line.anchoredPosition = new Vector3(0f, x, 0f);
+        
+        y = 54f * length;
+        line.sizeDelta = new Vector2(100f, y);
+        
     }
 }

@@ -16,6 +16,8 @@ public class tabs : MonoBehaviour
         public GameObject Relationsinterpersonels10;
         public GameObject Education11;
         public GameObject Loisirs12;
+
+    public GameObject graphs;
     // Update is called once per frame
     public void nutrition()
     {
@@ -31,6 +33,7 @@ public class tabs : MonoBehaviour
         Relationsinterpersonels10.SetActive(false);
         Education11.SetActive(false);
         Loisirs12.SetActive(false);
+        graphs.SetActive(false);
     }
 public void Soinspersonels()
     {
@@ -46,7 +49,8 @@ public void Soinspersonels()
         Responsabilités4.SetActive(false);
         Habitation3.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Habitation()
     {
         Habitation3.SetActive(true);
@@ -61,7 +65,8 @@ public void Habitation()
         Responsabilités4.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Responsabilités()
     {
         Responsabilités4.SetActive(true);
@@ -76,7 +81,8 @@ public void Responsabilités()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Viecommunantaire()
     {
         Viecommunantaire5.SetActive(true);
@@ -91,7 +97,8 @@ public void Viecommunantaire()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Travail()
     {
         Travail6.SetActive(true);
@@ -106,7 +113,8 @@ public void Travail()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Conditionscorporelle()
     {
         Conditionscorporelle7.SetActive(true);
@@ -121,7 +129,8 @@ public void Conditionscorporelle()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Communication()
     {
         Communication8.SetActive(true);
@@ -136,7 +145,8 @@ public void Communication()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Déplacement()
     {
         Déplacement9.SetActive(true);
@@ -151,7 +161,8 @@ public void Déplacement()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Relationsinterpersonels()
     {
         Relationsinterpersonels10.SetActive(true);
@@ -166,7 +177,8 @@ public void Relationsinterpersonels()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Education()
     {
         Education11.SetActive(true);
@@ -181,7 +193,8 @@ public void Education()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
 public void Loisirs()
     {
         Loisirs12.SetActive(true);
@@ -196,5 +209,22 @@ public void Loisirs()
         Habitation3.SetActive(false);
         Soinspersonels2.SetActive(false);
     nutrition1.SetActive(false);
-}
+        graphs.SetActive(false);
+    }
+    public void graphing()
+    {
+        Loisirs12.SetActive(false);
+        Education11.SetActive(false);
+        Relationsinterpersonels10.SetActive(false);
+        Déplacement9.SetActive(false);
+        Communication8.SetActive(false);
+        Conditionscorporelle7.SetActive(false);
+        Travail6.SetActive(false);
+        Viecommunantaire5.SetActive(false);
+        Responsabilités4.SetActive(false);
+        Habitation3.SetActive(false);
+        Soinspersonels2.SetActive(false);
+        nutrition1.SetActive(false);
+        graphs.SetActive(true);
+    }
 }

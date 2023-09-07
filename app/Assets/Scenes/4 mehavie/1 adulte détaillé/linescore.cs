@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class linescore : MonoBehaviour
 {
@@ -17,8 +18,15 @@ public class linescore : MonoBehaviour
     public bool G;
     public bool H;
     public bool I;
+
+    public Toggle AA;
+    void Update()
+    {
+        calculategraph();
+    }
     public void calculategraph()
     {
+        
         if (A&&!B&&!C&&!D&&!E&&!F&&!G&&!H&&!I)
         {
             score = 9;
