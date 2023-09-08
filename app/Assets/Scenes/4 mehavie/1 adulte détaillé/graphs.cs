@@ -33,7 +33,9 @@ public class graphs : MonoBehaviour
             timpo++;
         }
         length = total * 10f / (totalcount * 9f);
-       
+        timpo = 0;
+        total = 0f;
+        totalcount = 0f;
     }
     
     public void graphed()

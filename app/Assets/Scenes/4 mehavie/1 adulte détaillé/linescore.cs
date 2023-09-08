@@ -20,13 +20,28 @@ public class linescore : MonoBehaviour
     public bool I;
 
     public Toggle AA;
-    void Update()
-    {
-        calculategraph();
-    }
+    public Toggle BB;
+    public Toggle CC;
+    public Toggle DD;
+    public Toggle EE;
+    public Toggle FF;
+    public Toggle GG;
+    public Toggle HH;
+    public Toggle II;
+   
+
     public void calculategraph()
     {
-        
+        A = AA.isOn;
+        B = BB.isOn;
+        C = CC.isOn;
+        D = DD.isOn;
+        E = EE.isOn;
+        F = FF.isOn;
+        G = GG.isOn;
+        H = HH.isOn;
+        I= II.isOn;
+
         if (A&&!B&&!C&&!D&&!E&&!F&&!G&&!H&&!I)
         {
             score = 9;
