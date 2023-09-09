@@ -12,6 +12,8 @@ public class search3 : MonoBehaviour
 
     public int totalElements;
 
+    public GameObject[] mains;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,5 +47,16 @@ public class search3 : MonoBehaviour
                 else { ele.SetActive(false); }
             }
         }
+    }
+    public int numberofmains;
+    int x = 0;
+    private void Update()
+    {
+        while (x<numberofmains){
+            mains[x].SetActive(true);
+            x++;
+            
+     }
+        x = 0;
     }
 }
