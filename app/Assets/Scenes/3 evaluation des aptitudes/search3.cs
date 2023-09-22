@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class search3 : MonoBehaviour
 {
@@ -58,5 +59,10 @@ public class search3 : MonoBehaviour
             
      }
         x = 0;
+    }
+    public Scrollbar bar;
+    public void raisethebar()
+    {
+        bar.value = 1;
     }
 }
