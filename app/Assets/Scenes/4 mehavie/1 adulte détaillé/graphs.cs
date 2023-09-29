@@ -28,14 +28,17 @@ public class graphs : MonoBehaviour
     {
         while (timpo < noflines)
         {
+            line1[timpo].calculategraph();
             total = total + line1[timpo].score;
             totalcount = totalcount + line1[timpo].count;
             timpo++;
+            
         }
         length = total * 10f / (totalcount * 9f);
         timpo = 0;
         total = 0f;
         totalcount = 0f;
+        graphed();
     }
     
     public void graphed()
