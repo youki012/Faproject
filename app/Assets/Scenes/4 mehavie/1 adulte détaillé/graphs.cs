@@ -8,9 +8,11 @@ using UnityEngine.SocialPlatforms.Impl;
 public class graphs : MonoBehaviour
 {
     public RectTransform line;
+    public RectTransform linedis;
+
     public float x = -0.6696296f;
     public float y = 0f;
-
+    public float dis;
     public int noflines;
     int timpo = 0;
 
@@ -44,8 +46,10 @@ public class graphs : MonoBehaviour
     public void graphed()
     {
         x = 27f * length ;
+        dis = 54f * length;
         line.anchoredPosition = new Vector3(0f, x, 0f);
-        
+        linedis.anchoredPosition = new Vector3(0f,dis,0f);
+
         y = 54f * length;
         line.sizeDelta = new Vector2(100f, y);
         
