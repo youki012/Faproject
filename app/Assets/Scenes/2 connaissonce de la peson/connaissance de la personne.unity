@@ -486,8 +486,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 746547880}
   m_HandleRect: {fileID: 746547879}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.3890861
+  m_Value: 0.9999998
+  m_Size: 0.38908607
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -578,8 +578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.116, y: -12.3638}
-  m_SizeDelta: {x: 239.3578, y: 64.3119}
+  m_AnchoredPosition: {x: 4.1, y: -12.44}
+  m_SizeDelta: {x: 238.1877, y: 52.6106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &69087092
 MonoBehaviour:
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ech\xE9ances"
+  m_text: "Ech\xE9ances :"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -1505,8 +1505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.91882324, y: -3.72}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -5.7981, y: -3.84}
+  m_SizeDelta: {x: 428.7135, y: 55.3474}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &277399487
 MonoBehaviour:
@@ -1528,7 +1528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Attentes de l'entourage
+  m_text: 'Attentes de l''entourage :'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -1591,7 +1591,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -558.78796, y: 0, z: 0, w: 0}
+  m_margin: {x: 2.6926422, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1732,8 +1732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.85, y: -1.54}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -6.1615, y: -1.61}
+  m_SizeDelta: {x: 357.2249, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &360608516
 MonoBehaviour:
@@ -1755,7 +1755,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Peojets du patient '
+  m_text: 'Projets du patient :'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -1818,7 +1818,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -558.78796, y: 14.293066, z: 0, w: -11.43449}
+  m_margin: {x: 1.3109283, y: 0.9255333, z: 0, w: -0.74048615}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2348,7 +2348,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0.00012207031}
   m_SizeDelta: {x: -32.91, y: 2388.88}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &480728225
@@ -3050,8 +3050,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.1937, y: -6.7319}
-  m_SizeDelta: {x: 238.0782, y: 69.0391}
+  m_AnchoredPosition: {x: 3.88, y: -6.53}
+  m_SizeDelta: {x: 226.6279, y: 46.1384}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &630466636
 MonoBehaviour:
@@ -3073,7 +3073,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ech\xE9ances"
+  m_text: "Ech\xE9ances :"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -3185,8 +3185,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -1.62, y: -12.24}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -5.8633, y: -12.46}
+  m_SizeDelta: {x: 417.7666, y: 55.9132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693601315
 MonoBehaviour:
@@ -3208,7 +3208,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Objectifs \xE0 long terme"
+  m_text: "Objectifs \xE0 long terme :"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -3271,7 +3271,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -558.78796, y: 0, z: 0, w: 0}
+  m_margin: {x: 1.7832184, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3731,8 +3731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.91882324, y: 3.8015}
-  m_SizeDelta: {x: 200, y: 56.7895}
+  m_AnchoredPosition: {x: -5.0535, y: 4.01}
+  m_SizeDelta: {x: 592.9094, y: 47.4315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &767960266
 MonoBehaviour:
@@ -3754,7 +3754,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pr\xE9sentation clinique du patient"
+  m_text: "Pr\xE9sentation clinique du patient :"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -3817,7 +3817,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -558.78796, y: 0, z: 0, w: 0}
+  m_margin: {x: 0.018844342, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5251,8 +5251,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.91882324, y: -6.65}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -5.7874, y: -6.59}
+  m_SizeDelta: {x: 434.2709, y: 59.3383}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1284067388
 MonoBehaviour:
@@ -5274,7 +5274,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Objectifs \xE0 court terme\n"
+  m_text: "Objectifs \xE0 court terme :\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -5337,7 +5337,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -558.78796, y: 0, z: 0, w: 0}
+  m_margin: {x: 1.5108337, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6528,8 +6528,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.91882324, y: 1.39}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -5.0783, y: 1.3013}
+  m_SizeDelta: {x: 586.7084, y: 56.7022}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1773711566
 MonoBehaviour:
@@ -6551,7 +6551,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Habitudes ant\xE9rieures de vie"
+  m_text: "Habitudes ant\xE9rieures de vie :"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -6614,7 +6614,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -558.78796, y: 26.309853, z: 0, w: 0}
+  m_margin: {x: -0.02574923, y: 2.2483182, z: 0, w: 2.6735039}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
