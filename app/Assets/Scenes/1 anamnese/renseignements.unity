@@ -11210,8 +11210,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -158, y: 482}
-  m_SizeDelta: {x: 1236.68, y: 96.59}
+  m_AnchoredPosition: {x: -336.69, y: 489.71}
+  m_SizeDelta: {x: 879.29, y: 86.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1397134322
 MonoBehaviour:
@@ -11233,7 +11233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: INFORMATIONS GENERALES
+  m_text: "Informations G\xE9n\xE9rales"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
   m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
@@ -11260,13 +11260,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 32
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -13528,7 +13528,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -0.01, y: 2.016, z: -359.727}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.1998772, y: 455.11}
+  m_AnchoredPosition: {x: -0.1998772, y: 468}
   m_SizeDelta: {x: 1933.28, y: 773.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736404245
