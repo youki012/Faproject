@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6 fiche de suivi/suivi.unity
     guid: b64cdae3f0c212643a5e73ecbe8625e6
+  - enabled: 1
+    path: "Assets/Scenes/4 mehavie/1 adulte d\xE9taill\xE9/d\xE9taill\xE9.unity"
+    guid: 02a8c60594e62a642988e9e1c21ffd6f
+  - enabled: 1
+    path: "Assets/Scenes/4 mehavie/2 adulte abrege/abr\xE9g\xE9.unity"
+    guid: 331692caf42d24941aac4a3f38fe3ebc
   m_configObjects: {}
