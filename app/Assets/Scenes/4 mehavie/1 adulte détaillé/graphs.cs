@@ -18,8 +18,8 @@ public class graphs : MonoBehaviour
     int timpo = 0;
 
     public linescore[] line1;
-   
- 
+
+    float z;
    
 
     public float total = 0f;
@@ -38,6 +38,10 @@ public class graphs : MonoBehaviour
             
         }
         length = total * 10f / (totalcount * 9f);
+        
+        z = (int)(length * 100);
+        length = z / 100;
+
         timpo = 0;
         total = 0f;
         totalcount = 0f;

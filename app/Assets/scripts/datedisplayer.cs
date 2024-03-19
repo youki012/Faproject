@@ -23,42 +23,34 @@ public class datedisplayer : MonoBehaviour
 
     public Text aged;
     // Start is called before the first frame update
-    public TMP_Dropdown dropd;
-    public TMP_Dropdown dropm;
-    public TMP_Dropdown dropy;
+    public TMP_InputField dropd;
+    public TMP_InputField dropm;
+    public TMP_InputField dropy;
 
 
-    public void changed()
-    {
-        nd = dropd.value;
-        nm = dropm.value;
-        ny = dropy.value;
-    }
+
     void FixedUpdate()
     {
+        if (dropd.text != "" && dropm.text != "" && dropy.text != "")
+        {
+            bdd = int.Parse(dropd.text);
+            bmm = int.Parse(dropm.text);
+            byy = int.Parse(dropy.text);
 
-        bdd = int.Parse(dropd.options[nd].text);
-        bmm = int.Parse(dropm.options[nm].text);
-        byy = int.Parse(dropy.options[ny].text);
 
+            string day = System.DateTime.UtcNow.ToLocalTime().ToString("dd");
+            dd = int.Parse(day);
+            string month = System.DateTime.UtcNow.ToLocalTime().ToString("MM");
+            mm = int.Parse(month);
+            string year = System.DateTime.UtcNow.ToLocalTime().ToString("yyyy");
+            yy = int.Parse(year);
 
-        string day = System.DateTime.UtcNow.ToLocalTime().ToString("dd");       
-        dd = int.Parse(day);
-        string month = System.DateTime.UtcNow.ToLocalTime().ToString("MM");
-        mm = int.Parse(month);
-        string year = System.DateTime.UtcNow.ToLocalTime().ToString("yyyy");
-        yy = int.Parse(year);
+            age = yy - byy;
+            if (mm < bmm) { age--; }
+            else if (mm == bmm) { if (dd < bdd) { age--; } }
 
-        age = yy - byy;
-        if (mm < bmm) { age--; }
-        else if (mm == bmm) { if (dd < bdd) { age--; } }
-
-        aged.text = age.ToString();
+            aged.text = age.ToString();
+        }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
 }
