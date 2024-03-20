@@ -522,6 +522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nom: {fileID: 1464338283}
+  gender: {fileID: 1291473884}
 --- !u!1 &52253743
 GameObject:
   m_ObjectHideFlags: 0
@@ -8058,6 +8059,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   females: {fileID: 1880471674}
   males: {fileID: 1291473885}
+  f: 0
+  m: 1
 --- !u!114 &1291473885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8105,7 +8108,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1296073334
 GameObject:
   m_ObjectHideFlags: 0
