@@ -26,13 +26,7 @@ public class TabInputField : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            InputSelected--;
-            if (InputSelected > 0) InputSelected = 14;
-            SelectInputField();
-        }
-
+        
         if (Input.GetKeyDown(KeyCode.Tab)) 
         {
             InputSelected++;
