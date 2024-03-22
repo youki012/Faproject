@@ -33,6 +33,12 @@ public class TabInputField : MonoBehaviour
             if (InputSelected > 14) InputSelected = 0;
             SelectInputField();
         }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            InputSelected--;
+            if (InputSelected > 14) InputSelected = 0;
+            SelectInputField();
+        }
 
         void SelectInputField()
         {

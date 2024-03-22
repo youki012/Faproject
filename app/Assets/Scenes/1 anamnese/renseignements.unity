@@ -521,8 +521,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bbeedfa8f9b66c4681da9308c77b921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nom: {fileID: 1464338283}
   gender: {fileID: 1291473884}
+  nom: {fileID: 1464338283}
+  prenom: {fileID: 2093892283}
+  dd: {fileID: 1684825473}
+  mm: {fileID: 1714817729}
+  yy: {fileID: 1603386815}
+  situationfamil: {fileID: 1505578332}
+  nombreDenfant: {fileID: 1131709835}
+  situationPro: {fileID: 1336292892}
+  adresse: {fileID: 1814710702}
+  telephon: {fileID: 440204800}
+  histoirMaladie: {fileID: 1272160979}
+  medicaaux: {fileID: 982717275}
+  chirur: {fileID: 1906349498}
+  psychiat: {fileID: 1247790631}
+  reeduction: {fileID: 432029066}
 --- !u!1 &52253743
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,8 +570,8 @@ RectTransform:
   - {fileID: 1464338282}
   - {fileID: 2093892282}
   - {fileID: 1339546533}
-  - {fileID: 1505578331}
   - {fileID: 1131709834}
+  - {fileID: 1505578331}
   - {fileID: 1336292891}
   - {fileID: 1814710701}
   - {fileID: 440204799}
