@@ -6603,6 +6603,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f584bea1457b0234e95983d604c63eb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  presentationclinique: {fileID: 1090537696}
+  habitudesant: {fileID: 424907602}
+  projetsdupatient: {fileID: 1334315262}
+  attentes: {fileID: 1225838576}
+  objectifscourt: {fileID: 2049413789}
+  echeances: {fileID: 256551894}
+  objectifslong: {fileID: 85777226}
+  echeance: {fileID: 1137294394}
 --- !u!1 &1759909871
 GameObject:
   m_ObjectHideFlags: 0

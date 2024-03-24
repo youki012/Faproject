@@ -11,14 +11,14 @@ using System;
 public class scene2saver : MonoBehaviour
 {   
 
-    public TMP_InputField présentation clinique du patient;   
-    public TMP_InputField habitudes antérieures de vie;   
-    public TMP_InputField projets du patient;   
-    public TMP_InputField attentes de l'entourage;   
-    public TMP_InputField objectifs à court terme;   
-    public TMP_InputField echéances;   
-    public TMP_InputField objectifs à long terme;   
-    public TMP_InputField echéances;   
+    public TMP_InputField presentationclinique;   
+    public TMP_InputField habitudesant;   
+    public TMP_InputField projetsdupatient;   
+    public TMP_InputField attentes;   
+    public TMP_InputField objectifscourt;   
+    public TMP_InputField echeances;   
+    public TMP_InputField objectifslong;   
+    public TMP_InputField echeance;   
    
 
     public void Save()
@@ -27,14 +27,14 @@ public class scene2saver : MonoBehaviour
         Directory.CreateDirectory(Application.dataPath + "/infopage");
 
 
-        File.WriteAllText(Application.streamingAssetsPath + "présentation clinique du patient.text", présentation clinique du patient.text);   
-        File.WriteAllText(Application.streamingAssetsPath + "habitudes antérieures de vie.text", habitudes antérieures de vie.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "projets du patient.text", projets du patient.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "attentes de l'entourage.text", attentes de l'entourage.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "objectifs à court terme.text", objectifs à court terme.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "echéances.text", echéances.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "objectifs à long terme.text", objectifs à long terme.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "echéances.text", echéances.text);  
+        File.WriteAllText(Application.streamingAssetsPath + "presentationclinique.text", presentationclinique.text);   
+        File.WriteAllText(Application.streamingAssetsPath + "habitudesant.text", habitudesant.text);  
+        File.WriteAllText(Application.streamingAssetsPath + "projetsdupatient.text", projetsdupatient.text);  
+        File.WriteAllText(Application.streamingAssetsPath + "attentes.text", attentes.text);  
+        File.WriteAllText(Application.streamingAssetsPath + "objectifscourt.text", objectifscourt.text);  
+        File.WriteAllText(Application.streamingAssetsPath + "echeances.text", echeances.text);  
+        File.WriteAllText(Application.streamingAssetsPath + "objectifslong.text", objectifslong.text);  
+        File.WriteAllText(Application.streamingAssetsPath + "echeance.text", echeances.text);  
 
        
 
@@ -47,14 +47,14 @@ public class scene2saver : MonoBehaviour
     {
         
 
-        présentation clinique du patient.text = File.ReadAllText(Application.streamingAssetsPath + "présentation clinique du patient.text");  
-        habitudes antérieures de vie.text = File.ReadAllText(Application.streamingAssetsPath + "habitudes antérieures de vie.text"); 
-        projets du patient.text = File.ReadAllText(Application.streamingAssetsPath + "projets du patient.text"); 
-        attentes de l'entourage.text = File.ReadAllText(Application.streamingAssetsPath + "attentes de l'entourage.text"); 
-        objectifs à court terme.text = File.ReadAllText(Application.streamingAssetsPath + "objectifs à court terme.text"); 
-        echéances.text = File.ReadAllText(Application.streamingAssetsPath + "echéances.text"); 
-        objectifs à long terme.text = File.ReadAllText(Application.streamingAssetsPath + "objectifs à long terme.text"); 
-        echéances.text = File.ReadAllText(Application.streamingAssetsPath + "echéances.text");    
+        presentationclinique.text = File.ReadAllText(Application.streamingAssetsPath + "presentationclinique.text");  
+        habitudesant.text = File.ReadAllText(Application.streamingAssetsPath + "habitudesant.text"); 
+        projetsdupatient.text = File.ReadAllText(Application.streamingAssetsPath + "projetsdupatient.text"); 
+        attentes.text = File.ReadAllText(Application.streamingAssetsPath + "attentes.text"); 
+        objectifscourt.text = File.ReadAllText(Application.streamingAssetsPath + "objectifscourt.text"); 
+        echeances.text = File.ReadAllText(Application.streamingAssetsPath + "echeances.text"); 
+        objectifslong.text = File.ReadAllText(Application.streamingAssetsPath + "objectifslong.text"); 
+        echeance.text = File.ReadAllText(Application.streamingAssetsPath + "echeance.text");    
 
        
 
