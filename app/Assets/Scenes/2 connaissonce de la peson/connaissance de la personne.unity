@@ -487,7 +487,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 746547879}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.38908607
+  m_Size: 0.3890861
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6556,6 +6556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634771375}
   - component: {fileID: 1634771374}
+  - component: {fileID: 1634771376}
   m_Layer: 0
   m_Name: scenemanager
   m_TagString: Untagged
@@ -6590,6 +6591,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1634771376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634771373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f584bea1457b0234e95983d604c63eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1759909871
 GameObject:
   m_ObjectHideFlags: 0
