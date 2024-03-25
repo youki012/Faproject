@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEditor;
+using UnityEngine.UI;
 
 public class TabInputField6 : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class TabInputField6 : MonoBehaviour
     public TMP_InputField modeinterv; //1
     public TMP_InputField observations; //2
 
+    public Scrollbar scrollbar;
 
     public int InputSelected;
 
@@ -35,12 +37,15 @@ public class TabInputField6 : MonoBehaviour
             {
                 case 0:
                     dates.Select();
+                    scrollbar.value = 1;
                     break;
                 case 1:
                     modeinterv.Select();
+                    scrollbar.value = 1;
                     break;
                 case 2:
                     observations.Select();
+                    scrollbar.value = 1;
                     break;
                 
 

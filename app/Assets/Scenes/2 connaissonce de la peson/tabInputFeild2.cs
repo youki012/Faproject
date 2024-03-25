@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEditor;
+using UnityEngine.UI;
 
 public class TabInputField2 : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class TabInputField2 : MonoBehaviour
     public TMP_InputField objectifslong; //6
     public TMP_InputField echeance; //7
 
+    public Scrollbar scrollbar;
 
     public int InputSelected;
 
@@ -40,27 +42,35 @@ public class TabInputField2 : MonoBehaviour
             {
                 case 0:
                     presentationclinique.Select();
+                    scrollbar.value = 1;
                     break;
                 case 1:
                     habitudesant.Select();
+                    scrollbar.value = 1;
                     break;
                 case 2:
                     projetsdupatient.Select();
+                    scrollbar.value = 1;
                     break;
                 case 3:
                     attentes.Select();
+                    scrollbar.value = 0.38f;
                     break;
                 case 4:
                     objectifscourt.Select();
+                    scrollbar.value = 0.38f;
                     break;
                 case 5:
                     echeances.Select();
+                    scrollbar.value = 0.38f;
                     break;
                 case 6:
                     objectifslong.Select();
+                    scrollbar.value = 0;
                     break;
                 case 7:
                     echeance.Select();
+                    scrollbar.value = 0;
                     break;
 
 
