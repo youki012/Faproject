@@ -18,8 +18,12 @@ public class scene2saver : MonoBehaviour
     public TMP_InputField objectifscourt;   
     public TMP_InputField echeances;   
     public TMP_InputField objectifslong;   
-    public TMP_InputField echeance;   
-   
+    public TMP_InputField echeance;
+
+    private void Start()
+    {
+        Load();
+    }
 
     public void Save()
     {

@@ -13,9 +13,12 @@ public class scene6saver : MonoBehaviour
 
     public TMP_InputField dates;   
     public TMP_InputField modeinterv;   
-    public TMP_InputField observations;   
-   
+    public TMP_InputField observations;
 
+    private void Start()
+    {
+        Load();
+    }
     public void Save()
     {
         

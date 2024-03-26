@@ -10,7 +10,9 @@ using System;
 
 
 public class scene1saver : MonoBehaviour
-{   
+{
+    public TMP_InputField date;
+
     public gender gender;
 
     public TMP_InputField nom;   public TMP_InputField prenom;
@@ -35,13 +37,18 @@ public class scene1saver : MonoBehaviour
     public TMP_InputField psychiat;
 
     public TMP_InputField reeduction;
-
+    void Start()
+    {
+        Load();
+    }
     public void Save()
     {
         
         Directory.CreateDirectory(Application.dataPath + "/infopage");
 
         File.WriteAllText(Application.streamingAssetsPath + "gender.text", gender.f.ToString());
+
+        File.WriteAllText(Application.streamingAssetsPath + "date.text", date.text);
 
         File.WriteAllText(Application.streamingAssetsPath + "nom.text", nom.text);     File.WriteAllText(Application.streamingAssetsPath + "prenom.text", prenom.text);
 
@@ -74,6 +81,8 @@ public class scene1saver : MonoBehaviour
     public void Load()
     {
         gender.females.isOn = bool.Parse(File.ReadAllText(Application.streamingAssetsPath + "gender.text")); gender.males.isOn = !bool.Parse(File.ReadAllText(Application.streamingAssetsPath + "gender.text"));
+
+        date.text = File.ReadAllText(Application.streamingAssetsPath + "date.text");
 
         nom.text = File.ReadAllText(Application.streamingAssetsPath + "nom.text");     prenom.text = File.ReadAllText(Application.streamingAssetsPath + "prenom.text");
 
