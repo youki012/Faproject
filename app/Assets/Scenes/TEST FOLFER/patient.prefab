@@ -87,6 +87,8 @@ GameObject:
   - component: {fileID: 5555584265454933370}
   - component: {fileID: 8398998298152213574}
   - component: {fileID: 9065978318474993901}
+  - component: {fileID: 6481516893470405827}
+  - component: {fileID: 6305792570840921013}
   m_Layer: 5
   m_Name: patient
   m_TagString: Untagged
@@ -167,7 +169,55 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4915909538108579710}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6305792570840921013}
+        m_TargetAssemblyTypeName: currentpatient, Assembly-CSharp
+        m_MethodName: patientpress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6481516893470405827}
+        m_TargetAssemblyTypeName: sceneswitcher, Assembly-CSharp
+        m_MethodName: scenechanger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0 selelction page
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6481516893470405827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444079824979648630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9485065e81a7ab54ba8f2cc4989c5f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6305792570840921013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444079824979648630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427bdc400684d1e4db044701312393c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8829096036668516385
 GameObject:
   m_ObjectHideFlags: 0

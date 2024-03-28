@@ -37,7 +37,7 @@ public class patientfiles : MonoBehaviour
             TMP_Text name = patient[x - 1].transform.GetChild(1).GetComponent<TMP_Text>();
             name.text = filename.text;
             File.WriteAllText(Application.streamingAssetsPath + "/"+(x-1).ToString() + ".text" ,filename.text);
-
+            File.WriteAllText(Application.dataPath + "/currentpatient.text", filename.text);
 
         }
         else

@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class searching : MonoBehaviour
 {
@@ -12,8 +13,12 @@ public class searching : MonoBehaviour
 
     public int totalElements;
 
+    public Scrollbar scrollbard;
+
     // Start is called before the first frame update
-    void Start()
+
+    // Update is called once per frame
+    public void Search(int scrollvalue)
     {
         totalElements = ContentHolder.transform.childCount;
 
@@ -23,11 +28,6 @@ public class searching : MonoBehaviour
         {
             Element[i] = ContentHolder.transform.GetChild(i).gameObject;
         }
-    }
-
-    // Update is called once per frame
-    public void Search()
-    {
         string SearchText = SearchBar.GetComponent<TMP_InputField>().text;
         int searchtxtlength = SearchText.Length;
 
@@ -36,13 +36,14 @@ public class searching : MonoBehaviour
         foreach(GameObject ele in Element)
         {
             searchElements += 1;
-            if (ele.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text.Length >= searchtxtlength)
+            if (ele.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text.Length >= searchtxtlength)
             {
-                if (SearchText.ToLower() == ele.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text.Substring(0, searchtxtlength).ToLower()) 
+                if (SearchText.ToLower() == ele.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text.Substring(0, searchtxtlength).ToLower()) 
                     {
                     ele.SetActive(true);
                 }else { ele.SetActive(false); }
             }
         }
+        scrollbard.value = scrollvalue;
     }
 }
