@@ -19,38 +19,42 @@ public class newsavesys : MonoBehaviour
     {
         
         savedshit = text.text;
-        File.WriteAllText(Application.dataPath + "/save.text", savedshit);
+        Directory.CreateDirectory(Application.dataPath +"/"+filename);
+        //x = 0;
+        //File.WriteAllText(Application.dataPath + filename +"/listlength.text", all.Length.ToString());
+        File.WriteAllText(Application.dataPath + "/filename.text", filename);
+        File.WriteAllText(Application.dataPath +"/" +filename + "/save.text", savedshit);
         Debug.Log("saved!");
 
 
 
-        Directory.CreateDirectory(Application.dataPath + filename);
-        x = 0;
-        File.WriteAllText(Application.dataPath + filename +"/listlength.text", all.Length.ToString());
-        File.WriteAllText(Application.dataPath + "/filename.text", filename);
-        while (all.Length > x)
+       
+        /*
+         while (all.Length > x)
         {
             File.WriteAllText(Application.dataPath + filename + "/"+ x.ToString() + ".text", all[x]);
             x++;
         }
-        
+        */
     }
 
     
     public void Load()
     {
-        
-        text.text = File.ReadAllText(Application.dataPath + "/save.text");
-
-
-        x = 0;
         filename = File.ReadAllText(Application.dataPath + "/filename.text");
-        Array.Resize(ref all, int.Parse(File.ReadAllText(Application.dataPath + filename + "/listlength.text")));
+        text.text = File.ReadAllText(Application.dataPath+"/"+ filename + "/save.text");
+
+
+       // x = 0;
+        
+       // Array.Resize(ref all, int.Parse(File.ReadAllText(Application.dataPath + filename + "/listlength.text")));
         Debug.Log("loaded!");
+        /*
         while (all.Length > x)
         {
             all[x] = File.ReadAllText(Application.dataPath + filename + "/" + x.ToString() + ".text");
             x++;
         }
+        */
     }
 }

@@ -26,7 +26,7 @@ public class patientfiles : MonoBehaviour
         if (filename.text != "")
         {
             
-            Directory.CreateDirectory(Application.streamingAssetsPath + ("/"+filename.text));
+            Directory.CreateDirectory(Application.dataPath + "/patients" + ("/"+filename.text));
             x++;
             PlayerPrefs.SetInt("patientnumber", x);
             (Instantiate(basepatient) as GameObject).transform.SetParent(patientlist.transform);
@@ -36,7 +36,7 @@ public class patientfiles : MonoBehaviour
             patient[x-1].name = filename.text;
             TMP_Text name = patient[x - 1].transform.GetChild(1).GetComponent<TMP_Text>();
             name.text = filename.text;
-            File.WriteAllText(Application.streamingAssetsPath + "/"+(x-1).ToString() + ".text" ,filename.text);
+            File.WriteAllText(Application.dataPath + "/patients" + "/"+(x-1).ToString() + ".text" ,filename.text);
             File.WriteAllText(Application.dataPath + "/currentpatient.text", filename.text);
 
         }
@@ -49,11 +49,15 @@ public class patientfiles : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
+        
         x = PlayerPrefs.GetInt("patientnumber");
-    
+        
         y = 0;
         Array.Resize(ref patient, x);
-
+        if (!Directory.Exists("/patients"))
+        {
+            Directory.CreateDirectory(Application.dataPath + "/patients");
+        }
        
         while (y<x)
         {   
@@ -61,7 +65,7 @@ public class patientfiles : MonoBehaviour
             
             patient[y] = patientlist.transform.GetChild(y).gameObject;
             patient[y].transform.localScale = new Vector3(1, 1, 1);
-            patient[y].name = File.ReadAllText(Application.streamingAssetsPath + "/"+ y.ToString()+".text") ;
+            patient[y].name = File.ReadAllText(Application.dataPath + "/patients" + "/"+ y.ToString()+".text") ;
             TMP_Text name = patient[y].transform.GetChild(1).GetComponent<TMP_Text>();
             name.text = patient[y].name;
             y++;
