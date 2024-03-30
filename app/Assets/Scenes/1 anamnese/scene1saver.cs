@@ -39,40 +39,43 @@ public class scene1saver : MonoBehaviour
     public TMP_InputField reeduction;
     void Start()
     {
+        if (File.Exists(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/nom.text")) { 
         Load();
+    }
     }
     public void Save()
     {
-        
-        Directory.CreateDirectory(Application.dataPath + "/infopage");
+               
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/gender.text", gender.f.ToString());
 
-        File.WriteAllText(Application.streamingAssetsPath + "gender.text", gender.f.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/date.text", date.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "date.text", date.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/nom.text", nom.text);    
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/prenom.text", prenom.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "nom.text", nom.text);     File.WriteAllText(Application.streamingAssetsPath + "prenom.text", prenom.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/dd.text", dd.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/mm.text", mm.text); 
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/yy.text", yy.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "dd.text", dd.text); File.WriteAllText(Application.streamingAssetsPath + "mm.text", mm.text); File.WriteAllText(Application.streamingAssetsPath + "yy.text", yy.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/nomenfant.text", nombreDenfant.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "nomenfant.text", nombreDenfant.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/situationfam.text", situationfamil.value.ToString());
 
-        File.WriteAllText(Application.streamingAssetsPath + "situationfam.text", situationfamil.value.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/situationpro.text", situationPro.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "situationpro.text", situationPro.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/adresse.text", adresse.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "adresse.text", adresse.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/telephon.text", telephon.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "telephon.text", telephon.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/histoirMaladie.text", histoirMaladie.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "histoirMaladie.text", histoirMaladie.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/medicaux.text", medicaaux.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "medicaux.text", medicaaux.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/chirur.text", chirur.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "chirur.text", chirur.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/psyc.text", psychiat.text);
 
-        File.WriteAllText(Application.streamingAssetsPath + "psyc.text", psychiat.text);
-
-        File.WriteAllText(Application.streamingAssetsPath + "reeduc.text", reeduction.text);
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/reeduc.text", reeduction.text);
 
         Debug.Log("saved!");
     }
@@ -80,33 +83,37 @@ public class scene1saver : MonoBehaviour
 
     public void Load()
     {
-        gender.females.isOn = bool.Parse(File.ReadAllText(Application.streamingAssetsPath + "gender.text")); gender.males.isOn = !bool.Parse(File.ReadAllText(Application.streamingAssetsPath + "gender.text"));
+        gender.females.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/gender.text"));
+        gender.males.isOn = !bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/gender.text"));
 
-        date.text = File.ReadAllText(Application.streamingAssetsPath + "date.text");
+        date.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/date.text");
 
-        nom.text = File.ReadAllText(Application.streamingAssetsPath + "nom.text");     prenom.text = File.ReadAllText(Application.streamingAssetsPath + "prenom.text");
+        nom.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/nom.text");  
+        prenom.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/prenom.text");
 
-        dd.text = File.ReadAllText(Application.streamingAssetsPath + "dd.text"); mm.text = File.ReadAllText(Application.streamingAssetsPath + "mm.text"); yy.text = File.ReadAllText(Application.streamingAssetsPath + "yy.text");
+        dd.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/dd.text"); 
+        mm.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/mm.text");
+        yy.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/yy.text");
 
-        nombreDenfant.text = File.ReadAllText(Application.streamingAssetsPath + "nomenfant.text");
+        nombreDenfant.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/nomenfant.text");
 
-        situationfamil.value = int.Parse(File.ReadAllText(Application.streamingAssetsPath + "situationfam.text"));
+        situationfamil.value = int.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/situationfam.text"));
 
-        situationPro.text = File.ReadAllText(Application.streamingAssetsPath + "situationpro.text");
+        situationPro.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/situationpro.text");
 
-        adresse.text = File.ReadAllText(Application.streamingAssetsPath + "adresse.text");
+        adresse.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/adresse.text");
 
-        telephon.text = File.ReadAllText(Application.streamingAssetsPath + "telephon.text");
+        telephon.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/telephon.text");
 
-        histoirMaladie.text = File.ReadAllText(Application.streamingAssetsPath + "histoirMaladie.text");
+        histoirMaladie.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/histoirMaladie.text");
 
-        medicaaux.text = File.ReadAllText(Application.streamingAssetsPath + "medicaux.text");
+        medicaaux.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/medicaux.text");
 
-        chirur.text = File.ReadAllText(Application.streamingAssetsPath + "chirur.text");
+        chirur.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/chirur.text");
 
-        psychiat.text = File.ReadAllText(Application.streamingAssetsPath + "psyc.text");
+        psychiat.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/psyc.text");
 
-        reeduction.text = File.ReadAllText(Application.streamingAssetsPath + "reeduc.text");
+        reeduction.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral" + "/reeduc.text");
 
         Debug.Log("loaded!");
     }

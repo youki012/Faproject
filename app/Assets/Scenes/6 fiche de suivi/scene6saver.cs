@@ -17,17 +17,17 @@ public class scene6saver : MonoBehaviour
 
     private void Start()
     {
-        Load();
+        if (File.Exists(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi" + "/dates.text"))
+        {
+            Load();
+        }
     }
     public void Save()
     {
         
-        Directory.CreateDirectory(Application.dataPath + "/infopage");
-
-
-        File.WriteAllText(Application.streamingAssetsPath + "dates.text", dates.text);   
-        File.WriteAllText(Application.streamingAssetsPath + "modeinterv.text", modeinterv.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "observations.text", observations.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi" + "/dates.text", dates.text);   
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi" + "/modeinterv.text", modeinterv.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi" + "/observations.text", observations.text);  
       
        
 
@@ -40,9 +40,9 @@ public class scene6saver : MonoBehaviour
     {
         
 
-        dates.text = File.ReadAllText(Application.streamingAssetsPath + "dates.text");  
-        modeinterv.text = File.ReadAllText(Application.streamingAssetsPath + "modeinterv.text"); 
-        observations.text = File.ReadAllText(Application.streamingAssetsPath + "observations.text"); 
+        dates.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi" + "/dates.text");  
+        modeinterv.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi" + "/modeinterv.text"); 
+        observations.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi" + "/observations.text"); 
      
 
        

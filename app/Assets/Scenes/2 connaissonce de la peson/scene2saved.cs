@@ -22,23 +22,26 @@ public class scene2saver : MonoBehaviour
 
     private void Start()
     {
-        Load();
+        if (File.Exists(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/presentationclinique.text"))
+        {
+            Load();
+        }
     }
 
     public void Save()
     {
         
-        Directory.CreateDirectory(Application.dataPath + "/infopage");
+       
 
 
-        File.WriteAllText(Application.streamingAssetsPath + "presentationclinique.text", presentationclinique.text);   
-        File.WriteAllText(Application.streamingAssetsPath + "habitudesant.text", habitudesant.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "projetsdupatient.text", projetsdupatient.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "attentes.text", attentes.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "objectifscourt.text", objectifscourt.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "echeances.text", echeances.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "objectifslong.text", objectifslong.text);  
-        File.WriteAllText(Application.streamingAssetsPath + "echeance.text", echeances.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/presentationclinique.text", presentationclinique.text);   
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/habitudesant.text", habitudesant.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/projetsdupatient.text", projetsdupatient.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/attentes.text", attentes.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/objectifscourt.text", objectifscourt.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/echeances.text", echeances.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/objectifslong.text", objectifslong.text);  
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/echeance.text", echeances.text);  
 
        
 
@@ -51,14 +54,14 @@ public class scene2saver : MonoBehaviour
     {
         
 
-        presentationclinique.text = File.ReadAllText(Application.streamingAssetsPath + "presentationclinique.text");  
-        habitudesant.text = File.ReadAllText(Application.streamingAssetsPath + "habitudesant.text"); 
-        projetsdupatient.text = File.ReadAllText(Application.streamingAssetsPath + "projetsdupatient.text"); 
-        attentes.text = File.ReadAllText(Application.streamingAssetsPath + "attentes.text"); 
-        objectifscourt.text = File.ReadAllText(Application.streamingAssetsPath + "objectifscourt.text"); 
-        echeances.text = File.ReadAllText(Application.streamingAssetsPath + "echeances.text"); 
-        objectifslong.text = File.ReadAllText(Application.streamingAssetsPath + "objectifslong.text"); 
-        echeance.text = File.ReadAllText(Application.streamingAssetsPath + "echeance.text");    
+        presentationclinique.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/presentationclinique.text");  
+        habitudesant.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/habitudesant.text"); 
+        projetsdupatient.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/projetsdupatient.text"); 
+        attentes.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/attentes.text"); 
+        objectifscourt.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/objectifscourt.text"); 
+        echeances.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/echeances.text"); 
+        objectifslong.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/objectifslong.text"); 
+        echeance.text = File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance" + "/echeance.text");    
 
        
 
