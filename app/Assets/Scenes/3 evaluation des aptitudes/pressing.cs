@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System.IO;
+using JetBrains.Annotations;
 
 public class pressing : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class pressing : MonoBehaviour
         four.color = new Color(1f, 1f, 1f, 0f);
         five.color = new Color(1f, 1f, 1f, 0f);
         oned = true; twod = false; threed = false; fourd = false; fived = false;
+
+        
     }
     public void press2()
     {
@@ -75,33 +78,76 @@ public class pressing : MonoBehaviour
         five.color = new Color(0.5f, 0.5f, 0.5f, 1f);
         oned = false; twod = false; threed = false; fourd = false; fived = false;
     }
-    public void update()
+    public void Update()
     {
-        if (oned&&!twod&&!threed&&!fourd&&!fived)
+        if (PlayerPrefs.GetInt("savable3") == 1)
         {
-            press1();
+            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "1")
+            {
+                press1();
+            }
+            else if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "2")
+            {
+                press2();
+            }
+            else
+            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "3")
+            {
+                press3();
+            }
+            else
+            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "4")
+            {
+                press4();
+            }
+            else
+            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "5")
+            {
+                press5();
+            }
+            else
+            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "0")
+            {
+                clear();
+            }
         }
-        if (oned && twod && !threed && !fourd && !fived)
+        if (Input.GetMouseButtonDown(0)|| Input.GetMouseButtonDown(1))
         {
-            press2();
-        }
-        if (oned && twod && threed && !fourd && !fived)
-        {
-            press3();
-        }
-        if (oned && twod && threed && fourd && !fived)
-        {
-            press4();
-        }
-        if (oned && twod && threed && fourd && fived)
-        {
-            press5();
-        }
-        if (!oned && !twod && !threed && !fourd && !fived)
-        {
-            clear();
-        }
+            
+            if (oned && !twod && !threed && !fourd && !fived)
+            {
+                press1();
+                File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name, "1");
+            }
+            if (oned && twod && !threed && !fourd && !fived)
+            {
+                press2();
+                File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name, "2");
 
+            }
+            if (oned && twod && threed && !fourd && !fived)
+            {
+                press3();
+                File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name, "3");
+            }
+            if (oned && twod && threed && fourd && !fived)
+            {
+                press4();
+                File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name, "4");
+            }
+            if (oned && twod && threed && fourd && fived)
+            {
+                press5();
+                File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name, "5");
+            }
+            if (!oned && !twod && !threed && !fourd && !fived)
+            {
+                clear();
+                File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name, "0");
+            }
+            PlayerPrefs.SetInt("savable3", 0);
+        }
+        
     }
-    
+  
 }
