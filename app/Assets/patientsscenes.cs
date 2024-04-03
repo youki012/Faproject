@@ -18,6 +18,8 @@ public class patientsscenes : MonoBehaviour
             Directory.CreateDirectory(Application.dataPath +  "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/Connaissance");
             Directory.CreateDirectory(Application.dataPath +  "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation");
             Directory.CreateDirectory(Application.dataPath +  "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie");
+            Directory.CreateDirectory(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + "/mhavieDetail");
+            Directory.CreateDirectory(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + "/mhavieAbrege");
             Directory.CreateDirectory(Application.dataPath +  "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/MQE");
             Directory.CreateDirectory(Application.dataPath +  "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi");
         }

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class linescore : MonoBehaviour
 {
@@ -28,8 +31,75 @@ public class linescore : MonoBehaviour
     public Toggle GG;
     public Toggle HH;
     public Toggle II;
-   
 
+    public Toggle JJ;
+    public Toggle KK;
+    public Toggle LL;
+    public Toggle MM;
+    public Toggle NN;
+
+    public string selectedmeavie;
+
+    void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "détaillé")
+        {
+            selectedmeavie = "/mhavieDetail";
+        }
+        else
+        {
+            selectedmeavie = "/mhavieAbrege";
+        }
+        calculategraph();
+        load();
+    }
+    public void save()
+    {
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/"+ gameObject.transform.parent.name + gameObject.name+ "0" + ".text", AA.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "1"+ ".text", BB.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "2" + ".text", CC.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "3" + ".text", DD.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "4" + ".text", EE.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "5" + ".text", FF.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "6" + ".text", GG.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "7" + ".text", HH.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "8" + ".text", II.isOn.ToString());
+
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "9" + ".text", JJ.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "10" + ".text", KK.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "11" + ".text", LL.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "12" + ".text", MM.isOn.ToString());
+        File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "13" + ".text", NN.isOn.ToString());
+
+    }
+
+    public void load()
+    {
+        AA.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "0" + ".text"));
+        BB.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "1" + ".text"));
+        CC.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "2" + ".text"));
+        DD.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "3" + ".text"));
+        EE.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "4" + ".text"));
+        FF.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "5" + ".text"));
+        GG.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "6" + ".text"));
+        HH.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "7" + ".text"));
+        II.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "8" + ".text"));
+
+        JJ.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "9" + ".text"));
+        KK.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "10" + ".text"));
+        LL.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "11" + ".text"));
+        MM.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "12" + ".text"));
+        NN.isOn = bool.Parse(File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "13" + ".text"));
+    }
+
+
+    public void Update()
+    {
+        if (Input.GetMouseButtonDown(0)||Input.GetMouseButtonDown(1))
+        {
+            save();
+        }
+    }
     public void calculategraph()
     {
         A = AA.isOn;
@@ -100,8 +170,5 @@ public class linescore : MonoBehaviour
 
 
     }
-    private void Start()
-    {
-        calculategraph();
-    }
+  
 }
