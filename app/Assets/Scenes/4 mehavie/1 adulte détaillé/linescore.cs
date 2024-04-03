@@ -51,7 +51,9 @@ public class linescore : MonoBehaviour
             selectedmeavie = "/mhavieAbrege";
         }
         calculategraph();
-        load();
+        if (File.Exists(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/mhavie" + selectedmeavie + "/" + gameObject.transform.parent.name + gameObject.name + "0" + ".text")){
+            load();
+        }
     }
     public void save()
     {

@@ -18,7 +18,10 @@ public class savesys5 : MonoBehaviour
             x++;
         }
         x = 0;
-        load();
+        if (File.Exists(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/MQE" + "/" + x.ToString() + y.ToString() + ".text"))
+        {
+            load();
+        }
     }
 
     // Update is called once per frame

@@ -10,6 +10,7 @@ using System;
 public class patientsscenes : MonoBehaviour
 {
     // Start is called before the first frame update
+    public TMP_Text patientname;
     void Start()
     {
         if(!File.Exists("/"+File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/InformationGeneral"))
@@ -23,6 +24,7 @@ public class patientsscenes : MonoBehaviour
             Directory.CreateDirectory(Application.dataPath +  "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/MQE");
             Directory.CreateDirectory(Application.dataPath +  "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/FichesDeSuivi");
         }
+        patientname.text = File.ReadAllText(Application.dataPath + "/currentpatient.text");
     }
 
 

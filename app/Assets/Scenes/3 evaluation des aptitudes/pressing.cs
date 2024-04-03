@@ -82,33 +82,36 @@ public class pressing : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("savable3") == 1)
         {
-            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "1")
-            {
-                press1();
-            }
-            else if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "2")
-            {
-                press2();
-            }
-            else
-            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "3")
-            {
-                press3();
-            }
-            else
-            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "4")
-            {
-                press4();
-            }
-            else
-            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "5")
-            {
-                press5();
-            }
-            else
-            if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "0")
-            {
-                clear();
+            if (File.Exists(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name)) {
+
+                if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "1")
+                {
+                    press1();
+                }
+                else if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "2")
+                {
+                    press2();
+                }
+                else
+                if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "3")
+                {
+                    press3();
+                }
+                else
+                if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "4")
+                {
+                    press4();
+                }
+                else
+                if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "5")
+                {
+                    press5();
+                }
+                else
+                if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "0")
+                {
+                    clear();
+                }
             }
         }
         if (Input.GetMouseButtonDown(0)|| Input.GetMouseButtonDown(1))
