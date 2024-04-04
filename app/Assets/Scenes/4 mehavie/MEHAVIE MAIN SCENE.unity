@@ -236,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 458.86}
-  m_SizeDelta: {x: 1924, y: 809.62}
+  m_AnchoredPosition: {x: -2, y: 468.14}
+  m_SizeDelta: {x: 1924, y: 828.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507718409
 MonoBehaviour:
@@ -337,15 +337,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: MHAVIE Adulte Detaillee
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 84d6ef63b2a88ae48957b3e703bceaa5, type: 2}
+  m_sharedMaterial: {fileID: 5837138443103864679, guid: 84d6ef63b2a88ae48957b3e703bceaa5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -473,7 +473,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.5882353}
     m_HighlightedColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
     m_PressedColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -743,8 +743,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Choisissez :'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
-  m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 84d6ef63b2a88ae48957b3e703bceaa5, type: 2}
+  m_sharedMaterial: {fileID: 5837138443103864679, guid: 84d6ef63b2a88ae48957b3e703bceaa5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -2.126524, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -3.3349915, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -923,7 +923,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.5882353}
     m_HighlightedColor: {r: 0.7568628, g: 0.7568628, b: 0.7568628, a: 1}
     m_PressedColor: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1168,7 +1168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -544, y: 490}
+  m_AnchoredPosition: {x: -546, y: 493}
   m_SizeDelta: {x: 372.24, y: 77.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1662713226
@@ -1193,15 +1193,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: MHAVIE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
-  m_sharedMaterial: {fileID: 4613876420389178703, guid: b751c28716aeea647b770dcc4cec6f3e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 84d6ef63b2a88ae48957b3e703bceaa5, type: 2}
+  m_sharedMaterial: {fileID: 5837138443103864679, guid: 84d6ef63b2a88ae48957b3e703bceaa5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -2.126524, z: 2.1264648, w: 0}
+  m_margin: {x: 0, y: 0, z: -3.3349915, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1504,7 +1504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -807.0642, y: 37.390106}
+  m_AnchoredPosition: {x: -807.0642, y: 27}
   m_SizeDelta: {x: 32.01, y: 31.411}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1796365385
@@ -1729,15 +1729,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: MHAVIE Adulte Abregee
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 84d6ef63b2a88ae48957b3e703bceaa5, type: 2}
+  m_sharedMaterial: {fileID: 5837138443103864679, guid: 84d6ef63b2a88ae48957b3e703bceaa5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1790,7 +1790,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -3.3350677, w: 0}
+  m_margin: {x: 0, y: 0, z: -3.3349915, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1841,7 +1841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -896.4642, y: 37.390137}
+  m_AnchoredPosition: {x: -896.4642, y: 26.999998}
   m_SizeDelta: {x: 25.49, y: 24.19}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087716272
