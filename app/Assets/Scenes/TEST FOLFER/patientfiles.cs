@@ -28,7 +28,7 @@ public class patientfiles : MonoBehaviour
             
             Directory.CreateDirectory(Application.dataPath + "/patients" + ("/"+filename.text));
             x++;
-            PlayerPrefs.SetInt("patientnumber", x);
+            File.WriteAllText(Application.dataPath + "/patientnumber.text", x.ToString());
             (Instantiate(basepatient) as GameObject).transform.SetParent(patientlist.transform);
             Array.Resize(ref patient, x);
             patient[x-1] = patientlist.transform.GetChild(x - 1).gameObject;
@@ -49,8 +49,12 @@ public class patientfiles : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        
-        x = PlayerPrefs.GetInt("patientnumber");
+       if(!File.Exists(Application.dataPath + "/patientnumber.text"))
+        {
+            File.WriteAllText(Application.dataPath + "/patientnumber.text", x.ToString());
+        }
+
+        x = int.Parse(File.ReadAllText(Application.dataPath + "/patientnumber.text"));
         
         y = 0;
         Array.Resize(ref patient, x);

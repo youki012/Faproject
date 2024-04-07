@@ -1310,7 +1310,6 @@ GameObject:
   - component: {fileID: 38753318}
   - component: {fileID: 38753317}
   - component: {fileID: 38753319}
-  - component: {fileID: 38753320}
   m_Layer: 5
   m_Name: fairecircules
   m_TagString: Untagged
@@ -1473,20 +1472,6 @@ MonoBehaviour:
   LL: {fileID: 786824055}
   MM: {fileID: 1163554322}
   NN: {fileID: 362360555}
-  selectedmeavie: 
---- !u!114 &38753320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38753315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 38753315}
   selectedmeavie: 
 --- !u!1 &40573214
 GameObject:
@@ -13428,19 +13413,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: scene1saver, Assembly-CSharp
-        m_MethodName: Save
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1319840047}
         m_TargetAssemblyTypeName: sceneswitcher, Assembly-CSharp
         m_MethodName: scenechanger
         m_Mode: 5
@@ -13449,7 +13422,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 0 selelction page
+          m_StringArgument: MEHAVIE MAIN SCENE
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &339065822
@@ -13502,7 +13475,6 @@ GameObject:
   - component: {fileID: 339701673}
   - component: {fileID: 339701672}
   - component: {fileID: 339701674}
-  - component: {fileID: 339701675}
   m_Layer: 5
   m_Name: vouscircules
   m_TagString: Untagged
@@ -13667,20 +13639,6 @@ MonoBehaviour:
   MM: {fileID: 1213098165}
   NN: {fileID: 1614498644}
   selectedmeavie: 
---- !u!114 &339701675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339701670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 339701670}
-  selectedmeavie: 
 --- !u!1 &340154432
 GameObject:
   m_ObjectHideFlags: 0
@@ -13693,7 +13651,6 @@ GameObject:
   - component: {fileID: 340154435}
   - component: {fileID: 340154434}
   - component: {fileID: 340154436}
-  - component: {fileID: 340154437}
   m_Layer: 5
   m_Name: participicircules
   m_TagString: Untagged
@@ -13858,20 +13815,6 @@ MonoBehaviour:
   LL: {fileID: 107858598}
   MM: {fileID: 236168029}
   NN: {fileID: 1757293725}
-  selectedmeavie: 
---- !u!114 &340154437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340154432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 340154432}
   selectedmeavie: 
 --- !u!1 &343022287
 GameObject:
@@ -15489,7 +15432,6 @@ GameObject:
   - component: {fileID: 393460224}
   - component: {fileID: 393460223}
   - component: {fileID: 393460225}
-  - component: {fileID: 393460226}
   m_Layer: 5
   m_Name: echongicircules
   m_TagString: Untagged
@@ -15653,20 +15595,6 @@ MonoBehaviour:
   LL: {fileID: 936436484}
   MM: {fileID: 827761740}
   NN: {fileID: 1925816170}
-  selectedmeavie: 
---- !u!114 &393460226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393460221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 393460221}
   selectedmeavie: 
 --- !u!1 &396461025
 GameObject:
@@ -17087,7 +17015,6 @@ GameObject:
   - component: {fileID: 426646152}
   - component: {fileID: 426646151}
   - component: {fileID: 426646153}
-  - component: {fileID: 426646154}
   m_Layer: 5
   m_Name: realisicircules
   m_TagString: Untagged
@@ -17251,20 +17178,6 @@ MonoBehaviour:
   LL: {fileID: 563449993}
   MM: {fileID: 970389960}
   NN: {fileID: 1420847288}
-  selectedmeavie: 
---- !u!114 &426646154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426646149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 426646149}
   selectedmeavie: 
 --- !u!1 &430447757
 GameObject:
@@ -25748,7 +25661,6 @@ GameObject:
   - component: {fileID: 703974064}
   - component: {fileID: 703974063}
   - component: {fileID: 703974065}
-  - component: {fileID: 703974066}
   m_Layer: 5
   m_Name: realisicircules
   m_TagString: Untagged
@@ -25912,20 +25824,6 @@ MonoBehaviour:
   LL: {fileID: 118734594}
   MM: {fileID: 93065782}
   NN: {fileID: 1007483131}
-  selectedmeavie: 
---- !u!114 &703974066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703974061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 703974061}
   selectedmeavie: 
 --- !u!1 &704343348
 GameObject:
@@ -26450,7 +26348,6 @@ GameObject:
   - component: {fileID: 711612982}
   - component: {fileID: 711612981}
   - component: {fileID: 711612983}
-  - component: {fileID: 711612984}
   m_Layer: 5
   m_Name: realisicircules
   m_TagString: Untagged
@@ -26614,20 +26511,6 @@ MonoBehaviour:
   LL: {fileID: 1874797708}
   MM: {fileID: 938704437}
   NN: {fileID: 732358284}
-  selectedmeavie: 
---- !u!114 &711612984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711612979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 711612979}
   selectedmeavie: 
 --- !u!1 &711858786
 GameObject:
@@ -45195,19 +45078,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: scene1saver, Assembly-CSharp
-        m_MethodName: Save
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1319840047}
         m_TargetAssemblyTypeName: sceneswitcher, Assembly-CSharp
         m_MethodName: scenechanger
         m_Mode: 5
@@ -53709,7 +53580,6 @@ GameObject:
   - component: {fileID: 1524842431}
   - component: {fileID: 1524842430}
   - component: {fileID: 1524842432}
-  - component: {fileID: 1524842433}
   m_Layer: 5
   m_Name: vous2circules
   m_TagString: Untagged
@@ -53873,20 +53743,6 @@ MonoBehaviour:
   LL: {fileID: 659390954}
   MM: {fileID: 1688645061}
   NN: {fileID: 384422157}
-  selectedmeavie: 
---- !u!114 &1524842433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524842428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 1524842428}
   selectedmeavie: 
 --- !u!1 &1527038956
 GameObject:
@@ -55825,7 +55681,6 @@ GameObject:
   - component: {fileID: 1589445805}
   - component: {fileID: 1589445804}
   - component: {fileID: 1589445806}
-  - component: {fileID: 1589445807}
   m_Layer: 5
   m_Name: asuricircules
   m_TagString: Untagged
@@ -55988,20 +55843,6 @@ MonoBehaviour:
   LL: {fileID: 1099092309}
   MM: {fileID: 651023950}
   NN: {fileID: 1553936429}
-  selectedmeavie: 
---- !u!114 &1589445807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589445802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 1589445802}
   selectedmeavie: 
 --- !u!1 &1595028096
 GameObject:
@@ -57944,7 +57785,6 @@ GameObject:
   - component: {fileID: 1643660276}
   - component: {fileID: 1643660275}
   - component: {fileID: 1643660277}
-  - component: {fileID: 1643660278}
   m_Layer: 5
   m_Name: realisi2circules
   m_TagString: Untagged
@@ -58108,20 +57948,6 @@ MonoBehaviour:
   LL: {fileID: 461558564}
   MM: {fileID: 1991470762}
   NN: {fileID: 72136759}
-  selectedmeavie: 
---- !u!114 &1643660278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643660273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 1643660273}
   selectedmeavie: 
 --- !u!1 &1644984945
 GameObject:
@@ -59047,7 +58873,6 @@ GameObject:
   - component: {fileID: 1669986677}
   - component: {fileID: 1669986676}
   - component: {fileID: 1669986678}
-  - component: {fileID: 1669986679}
   m_Layer: 5
   m_Name: maintenircircules
   m_TagString: Untagged
@@ -59210,20 +59035,6 @@ MonoBehaviour:
   LL: {fileID: 1620119239}
   MM: {fileID: 2139196824}
   NN: {fileID: 606444884}
-  selectedmeavie: 
---- !u!114 &1669986679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669986674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 1669986674}
   selectedmeavie: 
 --- !u!1 &1670609173
 GameObject:
@@ -64004,7 +63815,6 @@ GameObject:
   - component: {fileID: 1818443764}
   - component: {fileID: 1818443763}
   - component: {fileID: 1818443765}
-  - component: {fileID: 1818443766}
   m_Layer: 5
   m_Name: vouscircules
   m_TagString: Untagged
@@ -64168,20 +63978,6 @@ MonoBehaviour:
   LL: {fileID: 1086019587}
   MM: {fileID: 1565574258}
   NN: {fileID: 1340278668}
-  selectedmeavie: 
---- !u!114 &1818443766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818443761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 1818443761}
   selectedmeavie: 
 --- !u!1 &1818583653
 GameObject:
@@ -70459,7 +70255,6 @@ GameObject:
   - component: {fileID: 1995237583}
   - component: {fileID: 1995237582}
   - component: {fileID: 1995237584}
-  - component: {fileID: 1995237585}
   m_Layer: 5
   m_Name: asuricircules
   m_TagString: Untagged
@@ -70622,20 +70417,6 @@ MonoBehaviour:
   LL: {fileID: 1344421821}
   MM: {fileID: 1812036084}
   NN: {fileID: 581851169}
-  selectedmeavie: 
---- !u!114 &1995237585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1995237580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 1995237580}
   selectedmeavie: 
 --- !u!1 &1995625453
 GameObject:
@@ -70806,18 +70587,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 62786763}
-        m_TargetAssemblyTypeName: graphs, Assembly-CSharp
-        m_MethodName: graphlength
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: graphs, Assembly-CSharp
         m_MethodName: graphlength
         m_Mode: 1
@@ -74161,8 +73930,6 @@ GameObject:
   - component: {fileID: 2084604759}
   - component: {fileID: 2084604758}
   - component: {fileID: 2084604760}
-  - component: {fileID: 2084604761}
-  - component: {fileID: 2084604762}
   m_Layer: 5
   m_Name: priparicircules
   m_TagString: Untagged
@@ -74220,8 +73987,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291799701
-  m_fontColor: {r: 0.58431375, g: 0.6666667, b: 0.8117648, a: 1}
+    rgba: 4285940267
+  m_fontColor: {r: 0.16862746, g: 0.25882354, b: 0.46274513, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -74325,71 +74092,6 @@ MonoBehaviour:
   LL: {fileID: 1599015049}
   MM: {fileID: 332140366}
   NN: {fileID: 1731478809}
-  selectedmeavie: 
---- !u!114 &2084604761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084604756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.1137255, g: 0.33333334, b: 0.54901963, a: 1}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 0
-  m_TargetGraphic: {fileID: 2084604758}
-  m_FillRect: {fileID: 0}
-  m_HandleRect: {fileID: 0}
-  m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &2084604762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084604756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 2084604756}
   selectedmeavie: 
 --- !u!1 &2085699729
 GameObject:
@@ -76177,7 +75879,6 @@ GameObject:
   - component: {fileID: 2136315964}
   - component: {fileID: 2136315963}
   - component: {fileID: 2136315965}
-  - component: {fileID: 2136315966}
   m_Layer: 5
   m_Name: realisicircules
   m_TagString: Untagged
@@ -76342,20 +76043,6 @@ MonoBehaviour:
   LL: {fileID: 1595028098}
   MM: {fileID: 1165842650}
   NN: {fileID: 352691689}
-  selectedmeavie: 
---- !u!114 &2136315966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136315961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d18ea43e35bb3a41acb5a4e8b8649e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlesholder: {fileID: 2136315961}
   selectedmeavie: 
 --- !u!1 &2139196822
 GameObject:
