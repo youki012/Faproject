@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEditor;
 using UnityEngine.UI;
-
+using System.Linq;
 public class TabInputField6 : MonoBehaviour
 {
     public TMP_InputField dates; //0
@@ -14,6 +14,9 @@ public class TabInputField6 : MonoBehaviour
     public Scrollbar scrollbar;
 
     public int InputSelected;
+    int max = 200;
+    int max2 = 180;
+    int max3 = 400;
 
     private void Update()
     {
@@ -51,6 +54,44 @@ public class TabInputField6 : MonoBehaviour
 
             }
         }
+        if (dates.text.Length >= max)
+        {
+            if (scrollbar.value > 0f)
+            {
+                scrollbar.value = scrollbar.value - 0.25f;
+                max = max + 100;
+            }
+            else
+            {
+                max = 200;
+            }
+        }
+        if (modeinterv.text.Length >= max2)
+        {
+            if (scrollbar.value > 0f)
+            {
+                scrollbar.value = scrollbar.value - 0.25f;
+                max2 = max2 + 90;
+            }
+            else
+            {
+                max2 = 180;
+            }
+        }
+        if (observations.text.Length >= max3)
+        {
+            if (scrollbar.value > 0f)
+            {
+                scrollbar.value = scrollbar.value - 0.25f;
+                max3 = max3 + 200;
+            }
+            else
+            {
+                max3 = 400;
+            }
+        }
+
+
     }
     public void datesSelected() => InputSelected = 0;
     public void modeintervSelected() => InputSelected = 1;
