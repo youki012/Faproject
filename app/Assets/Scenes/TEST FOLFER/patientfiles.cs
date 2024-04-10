@@ -25,8 +25,9 @@ public class patientfiles : MonoBehaviour
     { 
         if (filename.text != "")
         {
-            
+            x = int.Parse(File.ReadAllText(Application.dataPath + "/patientnumber.text"));
             Directory.CreateDirectory(Application.dataPath + "/patients" + ("/"+filename.text));
+            Directory.CreateDirectory(Application.dataPath + "/patients" + "/" + filename.text + "/AptitudesEtCorrelation");
             x++;
             File.WriteAllText(Application.dataPath + "/patientnumber.text", x.ToString());
             (Instantiate(basepatient) as GameObject).transform.SetParent(patientlist.transform);
