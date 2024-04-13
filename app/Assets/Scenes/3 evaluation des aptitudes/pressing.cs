@@ -21,6 +21,8 @@ public class pressing : MonoBehaviour
     public bool fourd;
     public bool fived;
 
+    int y = 0;
+    int x = 0;
     public void press1()
     {
         one.color = new Color(1f,0f,0f,1f);
@@ -82,6 +84,7 @@ public class pressing : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("savable3") == 1)
         {
+            
             if (File.Exists(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name)) {
 
                 if (File.ReadAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name) == "1")
@@ -113,8 +116,16 @@ public class pressing : MonoBehaviour
                     clear();
                 }
             }
+            y++;
+            if (y > 2)
+            {
+                PlayerPrefs.SetInt("savable3", 0);
+                y = 0;
+            }
+
         }
-        if (Input.GetMouseButtonDown(0)|| Input.GetMouseButtonDown(1))
+        
+        if (PlayerPrefs.GetInt("savable30") == 1)
         {
             
             if (oned && !twod && !threed && !fourd && !fived)
@@ -148,7 +159,12 @@ public class pressing : MonoBehaviour
                 clear();
                 File.WriteAllText(Application.dataPath + "/patients" + "/" + File.ReadAllText(Application.dataPath + "/currentpatient.text") + "/AptitudesEtCorrelation" + "/" + gameObject.name, "0");
             }
-            PlayerPrefs.SetInt("savable3", 0);
+            x++;
+            if (x > 2)
+            {
+                PlayerPrefs.SetInt("savable30", 0);
+                x = 0;
+            }
         }
         
     }

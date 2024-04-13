@@ -8,6 +8,8 @@ public class savesys3 : MonoBehaviour
 {
 
     public int x;
+    public int y;
+  
     void Start()
     {
         load();
@@ -21,5 +23,12 @@ public class savesys3 : MonoBehaviour
     private void Update()
     {
         x = PlayerPrefs.GetInt("savable3");
+        y = PlayerPrefs.GetInt("savable30");
+       
+        
+    }
+    public void save()
+    {
+        PlayerPrefs.SetInt("savable30", 1);
     }
 }
