@@ -17,7 +17,40 @@ public class tabs : MonoBehaviour
         public GameObject Loisirs12;
 
     public GameObject graphs;
+
+    int x = 0;
     // Update is called once per frame
+    void Start()
+    {
+
+        nutrition1.SetActive(true);
+        Soinspersonels2.SetActive(true);
+        Habitation3.SetActive(true);
+        Responsabilités4.SetActive(true);
+        Viecommunantaire5.SetActive(true);
+        Travail6.SetActive(true);
+        Conditionscorporelle7.SetActive(true);
+        Communication8.SetActive(true);
+        Déplacement9.SetActive(true);
+
+        Education11.SetActive(true);
+        Loisirs12.SetActive(true);
+        graphs.SetActive(false);
+        x = 0;
+
+    }
+    private void Update()
+    {
+        if (x < 100)
+        {
+            x++;
+        }
+        if (x > 50&&x<75)
+        {
+            nutrition();
+        }
+       
+    }
     public void nutrition()
     {
         nutrition1.SetActive(true);
